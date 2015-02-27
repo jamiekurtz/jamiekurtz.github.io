@@ -242,7 +242,8 @@ fieldset[disabled] .btn-xl.active {
     }
 
     .navbar-default .navbar-brand {
-        font-size: 2em;
+        visibility: hidden;
+        font-size: .1em;
         -webkit-transition: all .3s;
         -moz-transition: all .3s;
         transition: all .3s;
@@ -258,6 +259,7 @@ fieldset[disabled] .btn-xl.active {
     }
 
     .navbar-default.navbar-shrink .navbar-brand {
+        visibility: visible;
         font-size: 1.5em;
     }
 }
@@ -290,9 +292,9 @@ header .intro-text .intro-lead-in {
 
 header .intro-text .intro-heading {
     margin-bottom: 25px;
-    text-transform: uppercase;
+    /*text-transform: uppercase;*/
     font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
-    font-size: 50px;
+    font-size: 16px;
     font-weight: 700;
     line-height: 50px;
 }
@@ -306,17 +308,18 @@ header .intro-text .intro-heading {
     header .intro-text .intro-lead-in {
         margin-bottom: 25px;
         font-family: "Droid Serif","Helvetica Neue",Helvetica,Arial,sans-serif;
-        font-size: 40px;
+        font-size: 46px;
         font-style: italic;
+        font-weight: bold;
         line-height: 40px;
     }
 
     header .intro-text .intro-heading {
         margin-bottom: 50px;
-        text-transform: uppercase;
-        font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
-        font-size: 75px;
-        font-weight: 700;
+        /*text-transform: uppercase;*/
+        font-family: "Courier New", Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
+        font-size: 16px;
+        /*font-weight: 700;*/
         line-height: 75px;
     }
 }

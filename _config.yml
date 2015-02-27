@@ -1,64 +1,56 @@
-url: https://y7kim.github.io
+url: http://www.jamiekurtz.com
 baseurl:
 
 # Site settings
-title: Awesome Title
-email: your-email@domain.com
+title: Jamie Kurtz | Solutions Architect
+email: jamie@jamiekurtz.com
 description: "Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search results) and in your feed.xml site description."
 
 # Color settings (hex-codes without the leading hash-tag)
 color:
-  primary: fed136
-  secondary: fec503
-  secondary-dark: 333
+  primary: 3B6DA5
+  secondary: FD794C
+  secondary-dark: FDB74C
 
-# Team names, titles and social links
-people:
-- name: Kay Garland
-  pic: 1
-  position: Lead Designer
-  social:
-    - title: twitter
-      url: #
-    - title: facebook
-      url: #
-    - title: stack-overflow
-      url: #
+# Publications
+publications:
+- title: "ASP.NET MVC 4 and the Web API: Building a REST Service from Start to Finish"
+  date: January 2013
+  url: "http://www.amazon.com/Using-ASP-NET-Web-API-MVC/dp/1430249773"
+  pic: mvc-webapi-thumb
+  description: If you’re new to the REST architecture and/or new to ASP.NET Web API, this book will help you learn both in a short amount of time. I take you quickly through the basics of HTTP REST, some of the more prominent features in Web API, setting up a simple Web API solution in Visual Studio, and securing the service – all within just a little over 100 pages. The book also details how to properly manage database sessions and transactions with a Web API service – something I see developers struggling with on a regular basis. If you want to learn about REST and the basics of the Web API, this short book is for you.
 
-- name: Larry Parker
-  pic: 2
-  position: Lead Marketer
-  social:
-    - title: twitter
-      url: #
-    - title: facebook
-      url: #
-    - title: linkedin
-      url: #
+- title: Pro Drupal as an Enterprise Development Platform
+  date: November 2013
+  url: "http://www.amazon.com/Pro-Drupal-Enterprise-Development-Platform/dp/1430260041"
+  pic: ent-drupal-thumb
+  description: "Are you a developer or IT manager that has ever thought there has to be a better/faster/cheaper way? Rather than continuing to write the same code and components over and over, this book can help you start with a solid, “mostly-there” platform, allowing you to focus on filling the business-specific gaps that actually change from project to project. With nearly 30 years of combined IT experience building web sites, SOAP services, and (more recently) REST services, Thomas Besluau and I felt the need to figure out and share how we’ve utilized Drupal to build such solutions faster, cheaper, and requiring far less investment in writing and testing code. In fact, this book will show you how to build a fully functional enterprise-class web site and REST service all without a single line of code. We include business rules, security, single sign-on with Facebook and Twitter, configuration management and deployment, multi-tenet configurations, custom templates and styles, and even how to talk intelligently with your developers and IT management about leveraging open source software."
 
-- name: Diana Petersen
-  pic: 3
-  position: Lead Developer
-  social:
-    - title: twitter
-      url: #
-    - title: facebook
-      url: #
-    - title: google-plus
-      url: #
+- title: "ASP.NET Web API 2: Building a REST Service from Start to Finish"
+  date: July 2014
+  url: "http://www.amazon.com/ASP-NET-Web-API-Building-Service/dp/1484201108"
+  pic: webapi2-thumb
+  description: "If you’re a .NET developer looking to learn more about the basics of REST, and how to fully implement a REST service with the ASP.NET Web API, this book is for you!
+
+                Following on the heels of my first MVC/WebAPI book, Brian Wortman and I set out to address some of the concerns and feedback I received with regards to a lack of focus on the underlying Web API framework. So we’ve dispensed with much of the open source tool commentary, and dispensed with much of the non-Web API chatter, and focused very heavily on simply leveraging the most of the ASP.NET Web API (version 2) to build a RESTful service front to back. This new edition also includes more content related to testing, and a working Single Page Application web site that uses the REST service built throughout the book. We think you’ll find this book filled with lots more information, with a big increase in focus. Check out the early comments the book has on Amazon, and pick up your copy today!"
+
+#- title: "REST Services with ASP.NET Web API – SVNUG Presentation"
+#  date: May 2013
+#  url: "http://youtu.be/5AGuE_hAmzk?t=1m35s"
+#  pic: jamie-kurtz-svnug-thumb
+#  description: "If you’re a .NET developer looking to learn more about the basics of REST, and how to fully implement a REST service with the ASP.NET Web API, this book is for you!
+#
+#                Following on the heels of my first MVC/WebAPI book, Brian Wortman and I set out to address some of the concerns and feedback I received with regards to a lack of focus on the underlying Web API framework. So we’ve dispensed with much of the open source tool commentary, and dispensed with much of the non-Web API chatter, and focused very heavily on simply leveraging the most of the ASP.NET Web API (version 2) to build a RESTful service front to back. This new edition also includes more content related to testing, and a working Single Page Application web site that uses the REST service built throughout the book. We think you’ll find this book filled with lots more information, with a big increase in focus. Check out the early comments the book has on Amazon, and pick up your copy today!"
+
 
 # Social networks usernames (many more available: google-plus, flickr, dribbble, pinterest, instagram, tumblr, linkedin, etc.)
 social:
   - title: twitter
-    url: http://twitter.com/jekyllrb
-  - title: facebook
-    url:
-  - title: stack-overflow
-    url: http://stackoverflow.com/questions/tagged/jekyll
-  - title: bitbucket 
-    url: http://bitbucket.org/jekyll
+    url: http://twitter.com/jakurtz
+  - title: linkedin
+    url: https://www.linkedin.com/pub/jamie-kurtz/1a/658/bb9
   - title: github
-    url: http://github.com/jekyll
+    url: http://github.com/jamiekurtz
 
 # Postal address (add as many lines as necessary)
 address:
