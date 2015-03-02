@@ -264,6 +264,18 @@ fieldset[disabled] .btn-xl.active {
     }
 }
 
+@media (min-width: 768px) {
+    .navbar .navbar-nav {
+        display: inline-block;
+        float: none;
+        vertical-align: top;
+    }
+
+    .navbar .navbar-collapse {
+        text-align: center;
+    }
+}
+
 header {
     text-align: center;
     color: #fff;
@@ -308,7 +320,7 @@ header .intro-text .intro-heading {
     header .intro-text .intro-lead-in {
         margin-bottom: 25px;
         font-family: "Droid Serif","Helvetica Neue",Helvetica,Arial,sans-serif;
-        font-size: 46px;
+        font-size: 50px;
         font-style: italic;
         font-weight: bold;
         line-height: 40px;
@@ -318,7 +330,7 @@ header .intro-text .intro-heading {
         margin-bottom: 50px;
         /*text-transform: uppercase;*/
         font-family: "Courier New", Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
-        font-size: 16px;
+        font-size: 18px;
         /*font-weight: 700;*/
         line-height: 75px;
     }
