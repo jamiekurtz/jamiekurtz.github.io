@@ -9,7 +9,7 @@ dsq_thread_id:
 categories:
   - Continuous Delivery
 ---
-As a follow-up to a [previous post][1] on using continuous delivery to publish books, I&#8217;d like to explore the idea of leveraging an agile continuous delivery process to create and publish content.
+As a follow-up to a [previous post](/2013/02/13/agile-continuous-delivery-with-books/) on using continuous delivery to publish books, I&#8217;d like to explore the idea of leveraging an agile continuous delivery process to create and publish content.
 
 Before we start, I want to say that I love Google Docs, and use it all the time for both personal and work-related documents. You simply can&#8217;t beat, or even come close to, the level and quality of collaboration Google has achieved. That said, I find myself wanting to fit content authoring (books, articles, blog posts, documentation) into the same &#8220;machine&#8221; that I use all the time as a developer. Really, the machine that we use as a software development organization. When we keep it simple and stick to the usual patterns and practices for agile development, this machine works very well, and is very fast,
 
