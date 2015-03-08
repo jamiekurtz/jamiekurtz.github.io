@@ -1,5 +1,6 @@
 url: http://www.jamiekurtz.com
 baseurl:
+paginate: 10
 
 # Site settings
 title: Jamie Kurtz | Solutions Architect
