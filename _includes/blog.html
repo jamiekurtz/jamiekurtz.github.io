@@ -11,7 +11,7 @@
             {% for post in site.posts limit:6 %}
                 <div class="col-lg-4">
                     <div class="blog-teaser">
-                        <img src="{{ post.thumbnail }}" class="img-responsive img-circle" width="150" height="150" alt="">
+                        <img src="{{ post.thumbnail }}" class="img-responsive img-circle" alt="">
                         <div class="portfolio-caption">
                             <a href="{{post.url}}"><h4>{{ post.title }}</h4></a>
                             <div class="text-muted">{{ post.excerpt }}</div>

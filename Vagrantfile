@@ -14,6 +14,8 @@ Vagrant.configure(VAGRANTFILE_API_VERSION) do |config|
 
   config.vm.network "forwarded_port", guest: 4000, host: 4000
 
+  config.vm.synced_folder ".", "/vagrant", type: "rsync", rsync__exclude: ".git/", rsync__args: "--chmod=664"
+
   # If true, then any SSH connections made will enable agent forwarding.
   # Default value: false
    config.ssh.forward_agent = true

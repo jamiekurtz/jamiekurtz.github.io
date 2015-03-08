@@ -451,7 +451,6 @@ section h3.section-subheading {
 
 .my-work img {
     margin: 0 auto;
-    /*border: 7px solid #fff;*/
 }
 
 .my-work h4 {
@@ -466,12 +465,16 @@ section h3.section-subheading {
 
 .blog-teaser {
     margin-bottom: 50px;
+    margin-left: 25px;
+    margin-right: 25px;
     text-align: center;
+    min-height: 350px;
 }
 
 .blog-teaser img {
     margin: 0 auto;
-    /*border: 7px solid #fff;*/
+    height: 125px;
+    width: auto;
 }
 
 .blog-teaser h4 {

@@ -11,7 +11,9 @@ categories:
   - REST
   - Services
 ---
-In this post I want to share the bottom-line belief that served as the basis for the new book [Thomas Belsuau][1] and I wrote, [Drupal as an Enterprise Development Platform][2]. The belief that there has to be a better way. A better way to create web sites and services than starting from scratch every time we sit down to build those applications. A faster and more cost effective approach than starting with a blank Visual Studio or PHP or Ruby/Rails project. More reliable and better tested than writing even one line of our own code &#8211; let alone 100s or 1000s.
+In this post I want to share the bottom-line belief that served as the basis for the new book [Thomas Belsuau](https://twitter.com/tbesluau) and I wrote, [Drupal as an Enterprise Development Platform](http://www.amazon.com/Pro-Drupal-Enterprise-Development-Platform/dp/1430260041). The belief that there has to be a better way.
+
+A better way to create web sites and services than starting from scratch every time we sit down to build those applications. A faster and more cost effective approach than starting with a blank Visual Studio or PHP or Ruby/Rails project. More reliable and better tested than writing even one line of our own code &#8211; let alone 100s or 1000s.
 
 ## Seeking a Better Way {#seeking-a-better-way}
 
@@ -65,7 +67,7 @@ The book we wrote is a reflection of our excitement for being able to leverage a
 > *This post written in and [converted from markdown][8] with [pandoc][9].*
 
  [1]: https://twitter.com/tbesluau
- [2]: http://www.amazon.com/Pro-Drupal-Enterprise-Development-Platform/dp/1430260041
+ [2]:
  [3]: http://nodejs.org/
  [4]: /img/uploads/2013/12/app-libraries.png
  [5]: /img/uploads/2013/12/app-libraries-drupal.png
