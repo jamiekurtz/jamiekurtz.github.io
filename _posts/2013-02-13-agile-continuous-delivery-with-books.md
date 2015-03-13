@@ -1,7 +1,7 @@
 ---
 title: Agile Continuous Delivery with Books
 author: Jamie
-layout: post
+layout: blog-post
 permalink: /2013/02/13/agile-continuous-delivery-with-books/
 dsq_thread_id:
   - 1519837143

@@ -1,7 +1,7 @@
 ---
 title: Importance of Architecture in the Deployment Pipeline
 author: Jamie
-layout: post
+layout: blog-post
 permalink: /2012/07/13/importance-of-architecture-in-the-deployment-pipeline/
 tagazine-media:
   - 'a:7:{s:7:"primary";s:0:"";s:6:"images";a:1:{s:51:"http://geekswithblogs.net/jkurtz/aggbug/146581.aspx";a:6:{s:8:"file_url";s:51:"http://geekswithblogs.net/jkurtz/aggbug/146581.aspx";s:5:"width";s:1:"1";s:6:"height";s:1:"1";s:4:"type";s:5:"image";s:4:"area";s:1:"1";s:9:"file_path";s:0:"";}}s:6:"videos";a:0:{}s:11:"image_count";s:1:"1";s:6:"author";s:8:"37758482";s:7:"blog_id";s:8:"38292748";s:9:"mod_stamp";s:19:"2012-07-15 01:54:42";}'

@@ -1,7 +1,7 @@
 ---
 title: My Intro to Application Security
 author: Jamie Kurtz
-layout: post
+layout: blog-post
 permalink: /2014/07/15/my-intro-to-application-security/
 thumbnail: /img/uploads/2014/07/softsec-book.jpg
 dsq_thread_id:

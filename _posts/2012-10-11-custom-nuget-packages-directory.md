@@ -1,7 +1,7 @@
 ---
 title: Custom NuGet Packages Directory
 author: Jamie
-layout: post
+layout: blog-post
 permalink: /2012/10/11/custom-nuget-packages-directory/
 jabber_published:
   - 1350010800

@@ -1,7 +1,7 @@
 ---
 title: Strategy Types
 author: Jamie
-layout: post
+layout: blog-post
 permalink: /2012/07/14/strategy-types/
 jabber_published:
   - 1342320745

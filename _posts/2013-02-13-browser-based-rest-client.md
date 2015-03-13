@@ -1,7 +1,7 @@
 ---
 title: Browser-based REST Client
 author: Jamie
-layout: post
+layout: blog-post
 permalink: /2013/02/13/browser-based-rest-client/
 dsq_thread_id:
   - 1510489935

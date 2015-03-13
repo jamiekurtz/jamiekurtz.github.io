@@ -696,3 +696,14 @@ img::-moz-selection {
 body {
     webkit-tap-highlight-color: #{{ site.color.primary }};
 }
+
+
+.alignleft {
+    float: left;
+    margin: 5px 20px 20px 0;
+}
+
+.alignright {
+    float: right;
+    margin: 5px 0 20px 20px;
+}

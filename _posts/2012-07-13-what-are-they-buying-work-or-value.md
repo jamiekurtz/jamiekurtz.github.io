@@ -1,7 +1,7 @@
 ---
 title: What are they buying – work or value?
 author: Jamie
-layout: post
+layout: blog-post
 permalink: /2012/07/13/what-are-they-buying-work-or-value/
 categories:
   - Uncategorized

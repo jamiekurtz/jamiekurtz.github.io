@@ -1,7 +1,7 @@
 ---
 title: Creating Development Certificates for WCF Token and Transport Security (with PowerShell)
 author: Jamie
-layout: post
+layout: blog-post
 permalink: /2012/07/12/creating-development-certificates-for-wcf-token-and-transport-security-with-powershell/
 categories:
   - Uncategorized

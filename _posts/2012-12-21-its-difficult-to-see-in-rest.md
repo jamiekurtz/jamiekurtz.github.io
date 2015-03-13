@@ -1,7 +1,7 @@
 ---
 title: 'It&#8217;s Difficult to See in REST'
 author: Jamie
-layout: post
+layout: blog-post
 permalink: /2012/12/21/its-difficult-to-see-in-rest/
 dsq_thread_id:
   - 1509650297

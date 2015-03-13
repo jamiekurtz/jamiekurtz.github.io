@@ -1,7 +1,7 @@
 ---
 title: 5 Keys To Web App Token Authentication
 author: Jamie Kurtz
-layout: post
+layout: blog-post
 permalink: /2014/11/25/5-keys-to-web-app-token-authentication/
 thumbnail: /img/uploads/2014/11/token-150x150.jpg
 dsq_thread_id:

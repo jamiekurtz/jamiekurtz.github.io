@@ -1,6 +1,7 @@
 ---
 title: Blog
 author: Jamie Kurtz
-layout: page
+layout: blog-page
 ---
 
+Blog stuff here

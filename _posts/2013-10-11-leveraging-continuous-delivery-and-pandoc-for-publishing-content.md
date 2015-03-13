@@ -1,7 +1,7 @@
 ---
 title: Leveraging Continuous Delivery and Pandoc for Publishing Content
 author: Jamie Kurtz
-layout: post
+layout: blog-post
 permalink: /2013/10/11/leveraging-continuous-delivery-and-pandoc-for-publishing-content/
 thumbnail: /img/uploads/2013/10/cloud-upload.png
 dsq_thread_id:

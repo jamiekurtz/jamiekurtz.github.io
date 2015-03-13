@@ -1,7 +1,7 @@
 ---
 title: Composite Application Library (“PRISM”) and loading modules from multiple directories
 author: Jamie
-layout: post
+layout: blog-post
 permalink: /2012/07/12/composite-application-library-prism-and-loading-modules-from-multiple-directories/
 categories:
   - Uncategorized

@@ -1,7 +1,7 @@
 ---
 title: ASP.NET Web API REST Security Basics
 author: Jamie
-layout: post
+layout: blog-post
 permalink: /2013/01/14/asp-net-web-api-security-basics/
 dsq_thread_id:
   - 1506435154

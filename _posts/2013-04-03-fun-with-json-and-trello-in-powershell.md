@@ -1,7 +1,7 @@
 ---
 title: Fun with JSON (and Trello) in PowerShell
 author: Jamie
-layout: post
+layout: blog-post
 permalink: /2013/04/03/fun-with-json-and-trello-in-powershell/
 dsq_thread_id:
   - 1506416755
@@ -9,7 +9,10 @@ categories:
   - PowerShell
   - REST
 ---
-[<img class="alignleft  wp-image-256" title="json-trello-ps" src="img/uploads/2013/04/json-trello-ps1.png" alt="" width="222" height="207" />][1]Like most people who&#8217;ve tried it, I love <a href="http://www.trello.com" target="_blank">Trello</a>. And like a lot of other developers, we use at <a href="http://www.fusionalliance.com" target="_blank">Fusion</a> for basic software project task board management. But&#8230; one thing that is **really missing** thus far is any capability remotely related to &#8220;reporting&#8221;. Even getting a list of list names or card names looks to be impossible (as of 4/3/2013, anyway).
+
+<img class="alignleft  wp-image-256" title="json-trello-ps" src="/img/uploads/2013/04/json-trello-ps1.png" alt="" width="222" height="207" />
+
+Like most people who&#8217;ve tried it, I love <a href="http://www.trello.com" target="_blank">Trello</a>. And like a lot of other developers, we use at <a href="http://www.fusionalliance.com" target="_blank">Fusion</a> for basic software project task board management. But&#8230; one thing that is **really missing** thus far is any capability remotely related to &#8220;reporting&#8221;. Even getting a list of list names or card names looks to be impossible (as of 4/3/2013, anyway).
 
 Today I needed to copy a list of our cards over to a separate document to be reviewed by some project manger-ish folks and other stakeholders. Granted, we don&#8217;t have 100s of cards. But I really didn&#8217;t want to re-type all of their names manually; especially given that I will likely need to do this a few more times in the future. As a developer, and lover of the command line, I figured there must be a way to script out an alphabetical list of our card names.
 
@@ -135,5 +138,3 @@ PS>&nbsp;$status | ft -groupby status -property name, due</pre>
 <div style="padding-left: 30px;">
   <em>In this post, I covered how to download JSON data from a REST service within PowerShell. If you would like to build a REST service with the ASP.NET Web API, and aren&#8217;t sure where to start, check out my latest book&nbsp;<a href="http://www.amazon.com/Using-ASP-NET-Web-API-MVC/dp/1430249773" target="_blank">ASP.NET MVC 4 and the Web API: Building a REST Service from Start to Finish</a> .</em>
 </div>
-
- [1]: img/uploads/2013/04/json-trello-ps1.png

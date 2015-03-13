@@ -1,7 +1,7 @@
 ---
 title: HTTPS on Specific Pages in ASP.NET with Security Switch
 author: Jamie
-layout: post
+layout: blog-post
 permalink: /2012/08/05/https-on-specific-pages-in-asp-net-with-security-switch/
 jabber_published:
   - 1344218140

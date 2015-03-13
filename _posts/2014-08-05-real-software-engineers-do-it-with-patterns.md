@@ -1,7 +1,7 @@
 ---
 title: Real Software Engineers Do It With Patterns
 author: Jamie Kurtz
-layout: post
+layout: blog-post
 permalink: /2014/08/05/real-software-engineers-do-it-with-patterns/
 thumbnail: /img/uploads/2014/08/lasagna.png
 dsq_thread_id:

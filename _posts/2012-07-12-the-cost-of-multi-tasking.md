@@ -1,7 +1,7 @@
 ---
 title: The cost of multi-tasking
 author: Jamie
-layout: post
+layout: blog-post
 permalink: /2012/07/12/the-cost-of-multi-tasking/
 categories:
   - Uncategorized
