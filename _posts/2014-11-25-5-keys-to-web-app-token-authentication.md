@@ -4,6 +4,7 @@ author: Jamie Kurtz
 layout: blog-post
 permalink: /2014/11/25/5-keys-to-web-app-token-authentication/
 thumbnail: /img/uploads/2014/11/token-150x150.jpg
+comments: true
 dsq_thread_id:
   - 3263472479
 categories:

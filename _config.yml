@@ -8,10 +8,14 @@ email: jamie@jamiekurtz.com
 description: "Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search results) and in your feed.xml site description."
 
 # Color settings (hex-codes without the leading hash-tag)
+#3B6DA5 -- blue
+#FD794C -- orange
+#FDDC4C -- yellow
+#FDB74C -- yellow-orange
 color:
-  primary: FD794C
+  primary: 3B6DA5
   secondary: FDB74C
-  secondary-dark: 3B6DA5
+  secondary-dark: FD794C
 
 # Publications
 publications:
