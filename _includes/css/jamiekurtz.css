@@ -444,6 +444,18 @@ section h3.section-subheading {
     }
 }
 
+.about img {
+    margin: 0 auto;
+    height: 225px;
+    width: auto;
+}
+
+.about img.logos {
+    margin: 0 auto;
+    height: 75px;
+    width: auto;
+}
+
 .my-work {
     margin-bottom: 50px;
     text-align: center;
