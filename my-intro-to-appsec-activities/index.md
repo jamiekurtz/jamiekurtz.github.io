@@ -1,25 +1,9 @@
 ---
-title: My Intro to Application Security
+title: My Intro to AppSec Activities
 author: Jamie Kurtz
-layout: blog-post
-permalink: /2014/07/15/my-intro-to-application-security/
-thumbnail: /img/uploads/2014/07/softsec-book.jpg
-dsq_thread_id:
-  - 2847187414
-categories:
-  - AppSec
-  - Software Security
-  - Pentesting
+layout: page
 ---
-The information below serves as a list of education-related activities for me to follow as I slowly make my way into the deep dark world of Application Security (appsec).
-
-I&#8217;ve been doing Microsoft-based development and architecture for a number of years, somewhat recently branching out into things like PHP, Drupal, and NodeJS. In order to improve upon my development skills with respect to application security, I&#8217;ve decided to dabble with things like pentesting, networking and network security certifications, web application vulnerabilities, OWASP, and cryptography.&nbsp;
-
-People spend a lifetime learning about and working in this field (sometimes more broadly referred to as InfoSec).&nbsp;For now, I am merely looking for a survey of sorts; passing over many appsec-related topics briefly, in order to better understand the types of security risks associated with the applications I design, build, and maintain. (I also enjoy working on Linux, and security is a great avenue for improving one&#8217;s Linux skills!) The list below reflects this survey approach, and is not intended to represent an in-depth training regimen fit for a full-time InfoSec professional. Note that parts of this list are taken from a <a href="http://learning.criticalwatch.com/newbie" target="_blank">similar (and, lengthier) list</a> created by Jesper Jercenoks, <a dir="ltr" href="https://twitter.com/jesperjurcenoks" data-send-impression-cookie="true">@jesperjurcenoks&nbsp;</a>,&nbsp;at <a href="http://www.criticalwatch.com/" target="_blank">Critical Watch</a>.&nbsp;
-
-If you have experience with learning application security, especially from a developer&#8217;s point of view, I would love to hear it. Please feel free to post a comment below. I&#8217;m going to keep this list as a[ separate page on my site](/my-intro-to-appsec-activities), and would like to keep it as relevant and useful to myself and others as possible.
-
-* * *
+*(this page is the maintained/living list started from the [My Intro to AppSec](/2014/07/15/my-intro-to-application-security/) blog post; feel free to post comments there)*
 
 **Read (and do) Georgia Weidman&#8217;s&nbsp;<a href="http://www.amazon.com/Penetration-Testing-Hands--Introduction-Hacking/dp/1593275641" target="_blank">Penetration Testing: A Hands-On Introduction to Hacking</a> book** &#8211; learn the basics of pentesting to better understand what &#8220;the other side&#8221; is doing against our applications and their underlying infrastructure; basic techniques with nmap, metasploit, and other such tools
 
@@ -34,6 +18,8 @@ If you have experience with learning application security, especially from a dev
 **Learn the highlights of the main InfoSec policies/frameworks** &#8211; I want to understand the various policies, laws, and frameworks in place meant to protect users of the systems I design/build/maintain; this might include: PCI/DSS, HIPAA, PII, BSIMM.com, and Microsoft&#8217;s SDL
 
 **Gain comfort with network security** &#8211; with nearly my entire career being spent on the software development side of systems, I don&#8217;t have any exposure to routers, firewalls, load balancers, WiFi&#8230; any of that; while I don&#8217;t intend to become a full network engineer, I would like to have some level of comfort with the basic systems, devices, commands, and practices related to networking and network security; might include material and exams such as Network+, Security+, and SSCP
+
+**Data storage security** &#8211; nearly all applications deal with stored data, much of which needs to be stored in a secure manner. This particular area is to help me understand the various aspects of data encryption and how to best implement it, including tools such as [Transparent Data Encryption](https://www.simple-talk.com/sql/database-administration/transparent-data-encryption/).
 
 **Overview of encryption / cryptography** &#8211; once again, with so many connected systems (i.e. the &#8220;internet of things&#8221;), I believe having a baseline understanding of how data is securely transported and stored is an important aspect in designing and building secure applications; I might even enjoy the classes and research required to obtain a Masters in cryptography; but for now, some overview material would go a long way&#8230; like these:&nbsp;<a href="http://www.amazon.com/Cryptography-Dummies-Chey-Cobb/dp/0764541889" target="_blank">Cryptography for Dummies</a>&nbsp;book and a <a href="https://www.coursera.org/course/crypto" target="_blank">college-level course on cryptography</a>
 
