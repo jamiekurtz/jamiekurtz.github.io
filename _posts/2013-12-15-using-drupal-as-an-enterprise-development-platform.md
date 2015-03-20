@@ -3,7 +3,7 @@ title: Using Drupal as an Enterprise Development Platform
 author: Jamie Kurtz
 layout: blog-post
 permalink: /2013/12/15/using-drupal-as-an-enterprise-development-platform/
-thumbnail: /img/uploads/2013/12/Drupal_Enterprise_Badge-233x300.png
+thumbnail: /img/uploads/2013/12/Drupal_Enterprise_Badge-150x150.png
 dsq_thread_id:
   - 2052960549
 categories:

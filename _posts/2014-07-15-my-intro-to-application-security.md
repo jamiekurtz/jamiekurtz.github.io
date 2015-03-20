@@ -23,8 +23,6 @@ If you have experience with learning application security, especially from a dev
 
 **Read (and do) Georgia Weidman&#8217;s&nbsp;<a href="http://www.amazon.com/Penetration-Testing-Hands--Introduction-Hacking/dp/1593275641" target="_blank">Penetration Testing: A Hands-On Introduction to Hacking</a> book** &#8211; learn the basics of pentesting to better understand what &#8220;the other side&#8221; is doing against our applications and their underlying infrastructure; basic techniques with nmap, metasploit, and other such tools
 
-<img src="/img/uploads/2014/07/softsec-book.jpg" width="150" height="150" class="alignleft size-thumbnail wp-image-425" />
-
 **Read Gary McGraw&#8217;s <a href="http://www.amazon.com/Software-Security-Building-Gary-McGraw/dp/0321356705" target="_blank">Software Security</a> book** &#8211; learn from one of the best in the industry about software security, secure development processes, security-minded design and architecture, and much more; all centered on security best practices for the applications we design and build
 
 **Learn (and memorize) the <a href="https://www.owasp.org/index.php/Top_10_2013-Top_10" target="_blank">OWASP Top 10</a>** &#8211; these are the top security-related risks to today&#8217;s web applications; I believe every web developer should be at least somewhat aware of the items in this list
