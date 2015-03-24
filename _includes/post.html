@@ -6,7 +6,7 @@
 
 <div class="container text-muted">
     <div class="row">
-        <div class="col-lg-9">
+        <div class="col-lg-offset-1 col-lg-8">
             <h2>{{ page.title }}</h2>
             <span class="meta">Posted on {{ page.date | date_to_string }} by {{ page.author }}</span>
             <br/>
@@ -41,6 +41,14 @@
                 <script>
                     (adsbygoogle = window.adsbygoogle || []).push({});
                 </script>
+            </div>
+            <div class="well">
+                <div class="widget-title">Recent Posts</div>
+                <ul>
+                {% for post in site.posts limit:5 %}
+                    <li><a src="{{ post.url }}"/> {{ post.title }}</a></li>
+                {% endfor %}
+                </ul>
             </div>
         </div>
     </div>

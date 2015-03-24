@@ -583,3 +583,13 @@ body {
     float: right;
     margin: 5px 0 20px 20px;
 }
+
+.widget-title {
+    display: block;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 23px;
+    margin: 0;
+    padding: 0 0 20px 0;
+    text-align: left;
+}
