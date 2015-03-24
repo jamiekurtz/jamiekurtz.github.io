@@ -17,4 +17,32 @@ The other day, I found myself trying to think of a name for an interface I was b
 
 Feel free to suggest more types!
 
-> <font size="2" face="Courier New">accessor<br />activator<br />aggregator<br />binder<br />builder<br />calculator<br />container<br />controller<br />decoder<br />descriptor<br />encoder<br />enumerator<br />formatter<br />generator<br />handler<br />helper<br />loader<br />logger<br />manager<br />parser<br />provider<br />reader<br />searcher<br />selector<br />trigger<br />validator<br />watcher<br />worker<br />writer</font>
+    accessor
+    activator
+    aggregator
+    binder
+    builder
+    calculator
+    container
+    controller
+    decoder
+    descriptor
+    encoder
+    enumerator
+    formatter
+    generator
+    handler
+    helper
+    loader
+    logger
+    manager
+    parser
+    provider
+    reader
+    searcher
+    selector
+    trigger
+    validator
+    watcher
+    worker
+    writer

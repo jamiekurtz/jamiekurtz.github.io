@@ -1,0 +1,42 @@
+
+
+<div class="container text-muted" style="background-color: #ffffff">
+    <div class="row">
+        <div class="col-lg-offset-1 col-lg-8">
+
+            {% for post in site.posts %}
+                <h3><a href="{{ post.url }}">{{ post.title }}</a></h3>
+                <span class="meta">Posted on {{ post.date | date_to_string }} by {{ post.author }}</span>
+                <br/>
+                <br/>
+                <p>{{ post.content | strip_html | truncatewords: 100 }}</p>
+                <br/>
+                <p><a src="{{ post.url }}">Read more ></a></p>
+                <br />
+            {% endfor %}
+        </div>
+
+        <div class="col-lg-3">
+            <br />
+            <div class="well">
+                <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+                <!-- JamieKurtz Main Sidebar -->
+                <ins class="adsbygoogle"
+                     style="display:inline-block;width:300px;height:600px"
+                     data-ad-client="ca-pub-3246837045070811"
+                     data-ad-slot="9624241456"></ins>
+                <script>
+                    (adsbygoogle = window.adsbygoogle || []).push({});
+                </script>
+            </div>
+            <div class="well">
+                <div class="widget-title">Recent Posts</div>
+                <ul>
+                {% for post in site.posts limit:5 %}
+                    <li><a href="{{ post.url }}"/> {{ post.title }}</a></li>
+                {% endfor %}
+                </ul>
+            </div>
+        </div>
+    </div>
+</div>

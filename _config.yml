@@ -1,6 +1,7 @@
 url: http://www.jamiekurtz.com
 baseurl:
 paginate: 10
+paginate_path: "/blog/page:num/"
 
 # Site settings
 title: Jamie Kurtz | Solutions Architect
