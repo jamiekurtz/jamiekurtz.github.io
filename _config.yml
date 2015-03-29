@@ -13,10 +13,18 @@ description: "Write an awesome description for your new site here. You can edit 
 #FD794C -- orange
 #FDDC4C -- yellow
 #FDB74C -- yellow-orange
+
+#Created from lightbulb pic:
+# 3B6DA5 - blue
+# F5D494 - light yellow
+# DFD9D6 - light gray
+# A56C36 - brown
+# 3F3F41 - blackish
+#
 color:
   primary: 3B6DA5
-  secondary: FDB74C
-  secondary-dark: FD794C
+  secondary: F5D494
+  secondary-dark: A56C36
 
 # Publications
 publications:
