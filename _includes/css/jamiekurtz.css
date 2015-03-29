@@ -321,6 +321,14 @@ header {
 
     .logo a {
         text-decoration: none;
+        color: #{{ site.color.secondary-dark }}
+    }
+
+    .logo a:hover,
+    .logo a:focus,
+    .logo a:active,
+    .logo a.active {
+        color: #{{ site.color.secondary-dark }};
     }
 
     .logo img {
