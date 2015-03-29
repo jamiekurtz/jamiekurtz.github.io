@@ -15,11 +15,11 @@ description: "Write an awesome description for your new site here. You can edit 
 #FDB74C -- yellow-orange
 
 #Created from lightbulb pic:
-# 3B6DA5 - blue
-# F5D494 - light yellow
-# DFD9D6 - light gray
-# A56C36 - brown
-# 3F3F41 - blackish
+# 3B6DA5 - blue (59,109,165)
+# F5D494 - light yellow (245,212,148)
+# DFD9D6 - light gray (223,217,214)
+# A56C36 - brown (165,108,54)
+# 3F3F41 - blackish (63,63,65)
 #
 color:
   primary: 3B6DA5
