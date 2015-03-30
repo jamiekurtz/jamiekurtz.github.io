@@ -1,4 +1,5 @@
-This is the [Jekyll](http://jekyllrb.com/)-based source code for my [personal web site](http://www.jamiekurtz.com).
+This is the [Jekyll](http://jekyllrb.com/)-based source code for the next version my [personal web site](http://www.jamiekurtz.com). Current
+site is Wordpress running on an Ubuntu Amazon EC2 server.
 
 It was originally cloned from the Jekyll [Agency bootstrap theme](http://jekyllthemes.org/themes/agency/), but has since evolved quite a bit.
 
