@@ -1,6 +1,6 @@
 This is the [Jekyll](http://jekyllrb.com/)-based source code for my [personal web site](http://www.jamiekurtz.com).
 
-It was originally cloned from the Jekyll [Agency bootstrap theme](http://startbootstrap.com/templates/agency/), but has since evolved quite a bit.
+It was originally cloned from the Jekyll [Agency bootstrap theme](http://jekyllthemes.org/themes/agency/), but has since evolved quite a bit.
 
 
 Prerequisites
