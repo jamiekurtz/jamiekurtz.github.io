@@ -158,4 +158,4 @@ The most straight-forward way to implement basic authentication in the Web API i
 *UPDATED 2/15/2015 &#8211; Removed Facebook as an OpenID provider (thanks to comment from Ryan Helmoski below).*  
 &nbsp;
 
- [1]: http://www.jamiekurtz.com/newsletter-registration/
+ [1]: {{ site.url }}/newsletter-registration/

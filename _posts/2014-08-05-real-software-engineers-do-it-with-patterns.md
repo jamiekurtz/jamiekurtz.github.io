@@ -34,7 +34,7 @@ always hammer on those three things. Languages and frameworks and libraries will
 
 ### You&#8217;re not alone {#youre-not-alone}
 
-<img src="/img/uploads/2014/08/head-first-design-patterns-259x300.jpg" alt="head-first-design-patterns" width="259" height="300" class="alignright size-medium" />
+<img src="{{ site.url }}/img/uploads/2014/08/head-first-design-patterns-259x300.jpg" alt="head-first-design-patterns" width="259" height="300" class="alignright size-medium" />
 
 You see, as mentioned above, patterns are &#8211; by definition &#8211; rooted in real experiences. They let us quickly scan back over decades of software engineering, where smart people have slaved away over difficult problems, and extract the most promising pieces. As so eloquently stated in [Head First Design Patterns][3], the very first sentence of chapter 1: "Someone has already solved your problems". Sure, not all the exact dirty details. But certainly the hard-to-get-right-the-first-time and hard-to-change-later parts of your problems. Seriously, the pressure is a lot less than you think! Stand on those shoulders, leverage the knowledge they have acquired and made available to you.
 
@@ -46,11 +46,11 @@ Patterns increase the odds that you, the designer/developer, will get it "right"
 
 As a fairly common example, let&#8217;s say you were designing an application to process commands submitted to a web service. The list of commands will be evolving rapidly over the next year or so. But we don&#8217;t want to be constantly updating the service itself (because that equates to downtime and risk). Further, we want to know that whenever a new command is added, or an existing one is patched, we aren&#8217;t going to mess up the other commands.
 
-<img src="/img/uploads/2014/08/strategy-300x112.gif" alt="strategy" width="300" height="112" class="alignleft size-medium wp-image-405" />
+<img src="{{ site.url }}/img/uploads/2014/08/strategy-300x112.gif" alt="strategy" width="300" height="112" class="alignleft size-medium wp-image-405" />
 
 What&#8217;s our design approach? Well, as luck would have it, we can leverage the [Strategy Pattern][4], which allows us to "define a family of algorithms, encapsulate each one, and make them interchangeable. Strategy lets the algorithm vary independently from clients that use it." I&#8217;m betting that this pattern came about from a great many software engineers spending years designing for very similar scenarios. And the Strategy Pattern is what survived as the "right" way to go.
 
-<img src="/img/uploads/2014/08/chain-300x114.gif" alt="chain" width="300" height="114" class="alignright size-medium wp-image-403" />
+<img src="{{ site.url }}/img/uploads/2014/08/chain-300x114.gif" alt="chain" width="300" height="114" class="alignright size-medium wp-image-403" />
 
 If you went with the Strategy Pattern, combined with [Chain of Responsibility][5], you would greatly increase your chances of getting done sooner, with less rework, and with a more reliable piece of software &#8211; including meeting the requirement of being able to handle a rapidly evolving set of commands. And if some design-level refactoring was still required, you can be sure that you&#8217;re job would be orders of magnitude more difficult had you not chosen the appropriate pattern(s).
 
@@ -58,7 +58,7 @@ If you went with the Strategy Pattern, combined with [Chain of Responsibility][5
 
 In addition to being a set of best-practice tried-and-true design templates, patterns also give you and your peers a common language. Because the really useful common patterns are well defined, and have been around for a couple decades, their names mean something! If you were to say to me "we&#8217;re going to leverage the strategy pattern", I instantly know what you mean. It&#8217;s as if we were performing a macro-replacement on those two words, inserting 10+ pages of textbook-quality content into your statement. We can jump past hours of discussion and whiteboarding trying to come up with a pattern, and go straight to applying an established pattern.
 
-<img src="/img/uploads/2014/08/patterns.jpg" alt="patterns" width="590" height="186" class="aligncenter size-full wp-image-409" />
+<img src="{{ site.url }}/img/uploads/2014/08/patterns.jpg" alt="patterns" width="590" height="186" class="aligncenter size-full wp-image-409" />
 
 Think of the last time someone told you they were cooking Chicken Marsala, or Lasagna, or Caesar Salad. Those names invoke mental images of dishes that you and your friends would all share. "How about lasagna for dinner?"&#8230; "That sounds great!". Well, *that* is well-known, and you can more-or-less trust your experience and agree to the dinner recommendation. Design patterns ought to do the exact same thing! When someone says "how about the strategy and chain of responsibility patterns?", images of UML diagrams, class methods and properties, and sample code should come alive in your head. And you should be able to assess whether or not those patterns apply to the current problem at hand.
 
@@ -100,7 +100,7 @@ And lastly, with all of the JavaScript code popping up everywhere, going through
 
 To wrap up this post, I&#8217;ve listed a few goals you can set for yourself with regards to software design patterns. Some great reading material was referenced above, but the following should give you something practical to shoot for.
 
-<img src="/img/uploads/2014/08/hand-one-150x150.jpg" alt="one" width="150" height="150" class="alignright size-thumbnail wp-image-411" />
+<img src="{{ site.url }}/img/uploads/2014/08/hand-one-150x150.jpg" alt="one" width="150" height="150" class="alignright size-thumbnail wp-image-411" />
 
 First, and this is probably obvious, learn the 23 GoF patterns &#8211; at least by name and basic definition. They are all useful, but if you&#8217;re short on time, I would probably start with the following:
 
@@ -115,11 +115,11 @@ First, and this is probably obvious, learn the 23 GoF patterns &#8211; at least 
   * Template Method
   * Iterator (you are probably using this already)
 
-<img src="/img/uploads/2014/08/hand-two-150x150.jpg" alt="two" width="150" height="150" class="alignright size-thumbnail wp-image-411" />
+<img src="{{ site.url }}/img/uploads/2014/08/hand-two-150x150.jpg" alt="two" width="150" height="150" class="alignright size-thumbnail wp-image-411" />
 
 This will lead to what I consider a second goal. That is, recognizing when a problem is similar to a known pattern. Once you have some base line understanding of these patterns, your mind will start thinking of problems in those terms. In other words, you will automatically start trying to fit problems into one or more GoF (or other) patterns. This is a good thing, as it means you&#8217;re evolving from making up your own solutions from scratch to standing on the shoulders of those before you and applying what they&#8217;ve learned and passed on.
 
-<img src="/img/uploads/2014/08/hand-three-150x150.jpg" alt="three" width="150" height="150" class="alignright size-thumbnail wp-image-411" />
+<img src="{{ site.url }}/img/uploads/2014/08/hand-three-150x150.jpg" alt="three" width="150" height="150" class="alignright size-thumbnail wp-image-411" />
 
 And last, make it a goal to see development as using your creative mind to apply patterns. Don&#8217;t accidentally waste time and energy coming up with new ways of doing things, because chances are you will regret it. Sure, you may stumble on a great new approach that no one else has noticed yet. But this should be the exception, not the driving force. More often than not, you should be working to apply patterns such as GoF or Fowler&#8217;s. And don&#8217;t assume when you can&#8217;t immediately apply a known pattern to a problem that an appropriate pattern doesn&#8217;t exist. Make it a point to seek out appropriate patterns. Even if you can&#8217;t find one, you certainly haven&#8217;t wasted time researching a multitude of problem-specific patterns.
 

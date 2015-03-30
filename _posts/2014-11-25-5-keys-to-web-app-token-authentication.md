@@ -14,7 +14,7 @@ categories:
 ---
 There are many scenarios where using token-based authentication is desired, but leveraging OAuth-based authentication against Facebook or Twitter in your web application or RESTful API isn&#8217;t possible.
 
-<img src="/img/uploads/2014/11/token-150x150.jpg" alt="token" width="150" height="150" class="alignleft size-thumbnail wp-image-425" />
+<img src="{{ site.url }}/img/uploads/2014/11/token-150x150.jpg" alt="token" width="150" height="150" class="alignleft size-thumbnail wp-image-425" />
 
 As a consultant, where the bulk of the sites and web APIs we build are line-of-business applications over existing databases (specifically, existing users), most of the time we can&#8217;t simply forgo our own custom authentication. In fact, I don&#8217;t believe I&#8217;ve ever seen an enterprise application where taking a user&#8217;s Twitter-provided OAuth token would have been an acceptable solution. We simply aren&#8217;t working on social-enabled web applications. Nor are we building mobile apps where customers want their users to log in with social accounts.
 

@@ -19,7 +19,7 @@ A better way to create web sites and services than starting from scratch every t
 
 To start, ask yourself these questions:
 
-<img src="/img/uploads/2013/12/question-mark.jpg" class="alignright" height="120" width="80" />
+<img src="{{ site.url }}/img/uploads/2013/12/question-mark.jpg" class="alignright" height="120" width="80" />
 
   * In a typical release cycle, how much time do you and your team spend writing code, writing tests, testing the code, then fixing the code?
   * Of that time, how much is spent on value-add business functionality &#8211; versus dealing with code-level or framework issues?
@@ -50,7 +50,7 @@ Some of the other concerns we mapped into Drupal include: packaging and deployme
 
 What is so exciting for Thomas and I is that all of those concerns are handled by Drupal *without writing any code*. That&#8217;s right, we aren&#8217;t talking about Nuget packages or Ruby gems that must be coded against. We aren&#8217;t talking about an MVC framework with which I can create HTML-based views and server-side controllers. Nor do I have to use Bootstrap to manually lay out a nice UI. Those modules shown above are what I like to call "full-stack modules". That is, you turn them on and you get everything &#8211; the database structures, server-side logic, and fully-functional UI components or pages.
 
-<img src="/img/uploads/2013/12/Drupal_Enterprise_Badge.png" class="alignleft" height="100" width="80" />
+<img src="{{ site.url }}/img/uploads/2013/12/Drupal_Enterprise_Badge.png" class="alignleft" height="100" width="80" />
 
 Imagine being able to "turn on" Twitter and Facebook sign-on support by installing a module and simply setting a few configuration values. Turning that module on means you get full integration with Twitter and Facebook for the actual sign-on logic, database tables/columns that store the new sign-on information, and new UI widgets that show up on your site&#8217;s login screen. That&#8217;s it. Done. Database, business logic, and UI.
 
@@ -69,9 +69,9 @@ The book we wrote is a reflection of our excitement for being able to leverage a
  [1]: https://twitter.com/tbesluau
  [2]:
  [3]: http://nodejs.org/
- [4]: /img/uploads/2013/12/app-libraries.png
- [5]: /img/uploads/2013/12/app-libraries-drupal.png
+ [4]: {{ site.url }}/img/uploads/2013/12/app-libraries.png
+ [5]: {{ site.url }}/img/uploads/2013/12/app-libraries-drupal.png
  [6]: http://drupal.org
  [7]: https://www.acquia.com/
- [8]: /2013/10/11/leveraging-continuous-delivery-and-pandoc-for-publishing-content/
+ [8]: {{ site.url }}/2013/10/11/leveraging-continuous-delivery-and-pandoc-for-publishing-content/
  [9]: http://johnmacfarlane.net/pandoc

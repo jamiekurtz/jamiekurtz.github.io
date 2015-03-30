@@ -30,4 +30,4 @@ Check it out!!
 
 &nbsp;
 
- [1]: img/uploads/2013/02/chrome-rest-client.png
+ [1]: {{ site.url }}/img/uploads/2013/02/chrome-rest-client.png

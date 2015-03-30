@@ -1,12 +1,12 @@
-url: http://www.jamiekurtz.com
+#url: http://www.jamiekurtz.com
+url: http://127.0.0.1:4000
 baseurl:
 paginate: 10
 paginate_path: "/blog/page:num/"
 
-# Site settings
 title: Jamie Kurtz | Solutions Architect
 email: jamie@jamiekurtz.com
-description: "Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search results) and in your feed.xml site description."
+description: "Passionate about "
 
 # Color settings (hex-codes without the leading hash-tag)
 #3B6DA5 -- blue
