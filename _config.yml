@@ -7,7 +7,11 @@ paginate_path: "/blog/page:num/"
 
 title: Jamie Kurtz | Solutions Architect
 email: jamie@jamiekurtz.com
-description: "Passionate about "
+description: "Passionate about creating success, with a strong sense of iterative scope and value for users. 19+ years in software:
+testing, development, architecture, operations, process maturity, team lead, management, consulting. Highly effective at solving
+those difficult low-level non-traditional problems, e.g. dev/test/prod environments, automation, networks and systems, application
+security, continuous delivery/deployment. Firm believer in creating architecture and build/test/deploy infrastructure that
+promotes high developer productivity and allows for rapid and automated deployment of small autonomous components."
 
 # Color settings (hex-codes without the leading hash-tag)
 #3B6DA5 -- blue
@@ -77,8 +81,8 @@ social:
 
 # Postal address (add as many lines as necessary)
 address:
-  - line: 3481 Melrose Place
-  - line: Beverly Hills, CA 90210
+  - line: P.O. Box 169
+  - line: Westfield, IN 46074
 
 # Build settings
 markdown: kramdown
