@@ -1,5 +1,5 @@
-#url: http://www.jamiekurtz.com
-url: http://127.0.0.1:4000
+url: http://www.jamiekurtz.com
+#url: http://127.0.0.1:4000
 baseurl:
 paginate: 10
 paginate_path: "/blog/page:num/"
