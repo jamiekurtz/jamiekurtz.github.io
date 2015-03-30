@@ -1,4 +1,5 @@
-url: http://www.jamiekurtz.com
+#url: http://www.jamiekurtz.com
+url: http://jamiekurtz.github.io
 #url: http://127.0.0.1:4000
 baseurl:
 paginate: 10
