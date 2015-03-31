@@ -18,25 +18,7 @@
 
         <div class="col-lg-3">
             <br />
-            <div class="well">
-                <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
-                <!-- JamieKurtz Main Sidebar -->
-                <ins class="adsbygoogle"
-                     style="display:inline-block;width:300px;height:600px"
-                     data-ad-client="ca-pub-3246837045070811"
-                     data-ad-slot="9624241456"></ins>
-                <script>
-                    (adsbygoogle = window.adsbygoogle || []).push({});
-                </script>
-            </div>
-            <div class="well">
-                <div class="widget-title">Recent Posts</div>
-                <ul>
-                {% for post in site.posts limit:5 %}
-                    <li><a href="{{ post.url }}"/> {{ post.title }}</a></li>
-                {% endfor %}
-                </ul>
-            </div>
+            {% include page-side-bar.html %}
         </div>
     </div>
 </div>

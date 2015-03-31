@@ -290,6 +290,21 @@ header {
     padding-bottom: 1000px;
 }
 
+.side-bar .well {
+    padding: 10px;
+}
+
+.side-bar .content {
+    background: #fff;
+    clear: left;
+    font: 14px Helvetica, Arial, sans-serif;
+    width: 240px;
+    padding: 5px;
+    padding-right: 8px;
+}
+.side-bar .content li {
+    line-height: 16pt;
+}
 
 .slide-image {
     margin-top: -150px;
