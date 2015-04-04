@@ -276,6 +276,7 @@ fieldset[disabled] .btn-xl.active {
     }
 }
 
+/*TODO: Remove this class*/
 header {
     text-align: center;
     color: #fff;
@@ -289,6 +290,34 @@ header {
     -o-background-size: cover;
     padding-bottom: 1000px;
 }
+
+
+.slide-item {
+    background-position: center center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+    padding-bottom: 1000px;
+}
+
+#slide-innovation {
+    background-image: url(/img/bulb.jpg);
+}
+
+#slide-security {
+    background-image: url(/img/key.jpg);
+}
+
+#slide-numbers {
+    background-image: url(/img/numbers.jpg);
+}
+
+#slide-outdoors {
+    background-image: url(/img/mountain-lake.jpg);
+}
+
+
 
 .side-bar .well {
     padding: 10px;
@@ -319,16 +348,18 @@ header {
 
 .logo.intro-text .intro-lead-in {
     /*margin-bottom: 25px;*/
-    font-family: "Droid Serif","Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-family: "Oswald","Helvetica Neue",Helvetica,Arial,sans-serif;
     font-size: 22px;
     font-style: italic;
+    font-weight: 700;
+    text-transform: uppercase;
     /*line-height: 22px;*/
 }
 
 .logo.intro-text .intro-heading {
     /*margin-bottom: 25px;*/
     /*text-transform: uppercase;*/
-    font-family: "Droid Serif","Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-family: "Montserrat","Helvetica Neue",Helvetica,Arial,sans-serif;
     font-size: 16px;
     font-weight: 700;
     /*line-height: 50px;*/
@@ -356,7 +387,7 @@ header {
         margin: 0 auto;
         padding-bottom: 10px;
         margin-top: -15px;
-        height: 50px;
+        height: 80px;
         width: auto;
         margin-right: 20px;
     }
@@ -364,19 +395,22 @@ header {
     .logo .intro-text .intro-lead-in {
         margin-top: -28px;
         margin-bottom: 5px;
-        font-family: "Droid Serif","Helvetica Neue",Helvetica,Arial,sans-serif;
+        font-family: "Oswald","Helvetica Neue",Helvetica,Arial,sans-serif;
         font-size: 40px;
-        font-style: italic;
-        font-weight: bold;
+        /*font-style: italic;*/
+        font-weight: 300;
+        text-transform: uppercase;
+        color: white;
         /*line-height: 40px;*/
     }
 
     .logo .intro-text .intro-heading {
         /*margin-bottom: 50px;*/
         /*text-transform: uppercase;*/
-        font-family: "Courier New", Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
+        font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
         font-size: 16px;
-        /*font-weight: 700;*/
+        font-weight: 700;
+        color: white;
         /*line-height: 75px;*/
     }
 }
