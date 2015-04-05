@@ -303,11 +303,6 @@ fieldset[disabled] .btn-xl.active {
 }
 
 
-
-.side-bar .well {
-    padding: 10px;
-}
-
 .side-bar .content {
     background: white;
     clear: left;
@@ -647,11 +642,19 @@ body {
 .blog-info {
     background: white;
     padding: 20px;
-    margin-top: 20px;
+    margin-bottom: 20px;
     font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
     border-radius: 10px;
 }
 
+
+.blog-content {
+    background: white;
+    padding: 20px;
+    margin-bottom: 20px;
+    font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    border-radius: 10px;
+}
 
 @media(min-width:1px) {
     #header-carousel {
@@ -663,4 +666,14 @@ body {
     #header-carousel {
         display: block;
     }
+}
+
+.leader {
+    background: white;
+    clear: left;
+    font: 14px Helvetica, Arial, sans-serif;
+    /*width: 800px;*/
+    padding: 10px;
+    border-radius: 10px;
+    margin: 20px 0px;
 }
