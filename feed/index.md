@@ -23,7 +23,7 @@
             {% for category in post.categories %}
                 <category>{{ category }}</category>
             {% endfor %}
-        </item>
+        </item> [1]: {{ site.url }}/newsletter-registration/
         {% endfor %}
     </channel>
 </rss>

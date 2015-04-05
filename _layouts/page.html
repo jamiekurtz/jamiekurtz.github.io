@@ -1,39 +1,25 @@
----
-title: Solutions Architect and Consultant | Jamie Kurtz
----
-
 <!DOCTYPE html>
 <html>
 
 {% include head.html %}
 
-<body>
+<body style="background: #efefef">
 
 {% include nav.html %}
 
 
 <div class="container text-muted">
     <div class="row">
-        <div class="col-lg-9">
+        <div class="col-lg-offset-1 col-lg-8" style="background-color: #ffffff; margin-top: 20px; border-radius: 10px">
             <h2>{{ page.title }}</h2>
-            <br/>
             <br/>
             {{ content }}
             <p>&nbsp;</p>
             <p>&nbsp;</p>
         </div>
         <div class="col-lg-3">
-            <div class="well">
-                <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
-                <!-- JamieKurtz Main Sidebar -->
-                <ins class="adsbygoogle"
-                     style="display:inline-block;width:300px;height:600px"
-                     data-ad-client="ca-pub-3246837045070811"
-                     data-ad-slot="9624241456"></ins>
-                <script>
-                    (adsbygoogle = window.adsbygoogle || []).push({});
-                </script>
-            </div>
+            <br/>
+            {% include page-side-bar.html %}
         </div>
     </div>
 </div>
