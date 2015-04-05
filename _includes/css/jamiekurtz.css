@@ -276,21 +276,6 @@ fieldset[disabled] .btn-xl.active {
     }
 }
 
-/*TODO: Remove this class*/
-header {
-    text-align: center;
-    color: #fff;
-    background-attachment: scroll;
-    background-image: url(../img/header-bg.jpg);
-    background-8ition: center center;
-    background-repeat: none;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    background-size: cover;
-    -o-background-size: cover;
-    padding-bottom: 1000px;
-}
-
 
 .slide-item {
     background-position: center center;
@@ -343,28 +328,49 @@ header {
 }
 
 
-.logo .intro-text {
-    padding-top: 10px;
-    padding-bottom: 5px;
-}
 
-.logo.intro-text .intro-lead-in {
-    /*margin-bottom: 25px;*/
-    font-family: "Oswald","Helvetica Neue",Helvetica,Arial,sans-serif;
-    font-size: 22px;
-    font-style: italic;
-    font-weight: 700;
-    text-transform: uppercase;
-    /*line-height: 22px;*/
-}
+@media(min-width:1px) {
+    .logo .intro-text {
+        width: 400px;
+    }
 
-.logo.intro-text .intro-heading {
-    /*margin-bottom: 25px;*/
-    /*text-transform: uppercase;*/
-    font-family: "Montserrat","Helvetica Neue",Helvetica,Arial,sans-serif;
-    font-size: 16px;
-    font-weight: 700;
-    /*line-height: 50px;*/
+    .logo a {
+        text-decoration: none;
+        color: #{{ site.color.secondary-dark }}
+    }
+
+    .logo a:hover,
+    .logo a:focus,
+    .logo a:active,
+    .logo a.active {
+        color: #{{ site.color.secondary-dark }};
+    }
+
+    .logo img {
+        margin: 0 auto;
+        padding-bottom: 10px;
+        margin-top: -15px;
+        height: 100px;
+        width: auto;
+        margin-right: 20px;
+    }
+
+    .logo .intro-text .intro-lead-in {
+        margin-top: -28px;
+        margin-bottom: 5px;
+        font-family: "Oswald","Helvetica Neue",Helvetica,Arial,sans-serif;
+        font-size: 30px;
+        font-weight: 300;
+        text-transform: uppercase;
+        color: white;
+    }
+
+    .logo .intro-text .intro-heading {
+        font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
+        font-size: 10px;
+        font-weight: 700;
+        color: white;
+    }
 }
 
 @media(min-width:768px) {
