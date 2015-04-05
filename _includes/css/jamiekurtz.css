@@ -254,7 +254,7 @@ fieldset[disabled] .btn-xl.active {
     }
 
     .navbar-default.navbar-shrink {
-        padding: 10px 0;
+        padding: 20px 0px 0px 0px;
         background-color: #222;
     }
 
@@ -330,9 +330,9 @@ fieldset[disabled] .btn-xl.active {
 
 
 @media(min-width:1px) {
-    .logo {
-        margin-top: 30px;
-    }
+    /*.logo {*/
+        /*margin-top: 30px;*/
+    /*}*/
 
     .logo .intro-text {
         width: 75%;
@@ -353,14 +353,14 @@ fieldset[disabled] .btn-xl.active {
     .logo img {
         margin: 0 auto;
         padding-bottom: 10px;
-        margin-top: -15px;
+        margin-top: 5px;
         height: 100px;
         width: auto;
         margin-right: 20px;
     }
 
     .logo .intro-text .intro-lead-in {
-        margin-top: -28px;
+        /*margin-top: -28px;*/
         margin-bottom: 5px;
         font-family: "Oswald","Helvetica Neue",Helvetica,Arial,sans-serif;
         font-size: 30px;
@@ -378,6 +378,10 @@ fieldset[disabled] .btn-xl.active {
 }
 
 @media(min-width:768px) {
+    /*.logo {*/
+        /*margin-top: 0px;*/
+    /*}*/
+
     .logo .intro-text {
         width: 400px;
     }
@@ -397,7 +401,7 @@ fieldset[disabled] .btn-xl.active {
     .logo img {
         margin: 0 auto;
         padding-bottom: 10px;
-        margin-top: -15px;
+        margin-top: 10px;
         height: 100px;
         width: auto;
         margin-right: 20px;
