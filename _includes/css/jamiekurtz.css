@@ -324,12 +324,11 @@ header {
 }
 
 .side-bar .content {
-    background: #fff;
+    background: white;
     clear: left;
     font: 14px Helvetica, Arial, sans-serif;
     width: 240px;
-    padding: 5px;
-    padding-right: 10px;
+    padding: 10px;
     border-radius: 10px;
     margin-bottom: 20px;
 }

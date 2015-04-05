@@ -12,7 +12,7 @@
                 <br/>
                 <p>{{ post.content | strip_html | truncatewords: 100 }}</p>
                 <br/>
-                <p><a src="{{ post.url }}">Read more ></a></p>
+                <p><a href="{{ post.url }}">Read more ></a></p>
                 <br />
             </div>
             {% endfor %}
