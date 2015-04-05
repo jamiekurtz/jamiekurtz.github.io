@@ -1,5 +1,6 @@
 ---
 title: 5 Keys To Web App Token Authentication
+description: Understanding how to leverage token-based authentication in web sites where Facebook or Twitter OAuth integration isn't possible.
 author: Jamie Kurtz
 layout: blog-post
 permalink: /2014/11/25/5-keys-to-web-app-token-authentication/
@@ -11,7 +12,9 @@ categories:
   - AppSec
   - Architecture
   - REST
+keywords: json web token, jwt, rest, asp.net web api, nodejs, authentication, authorization
 ---
+
 There are many scenarios where using token-based authentication is desired, but leveraging OAuth-based authentication against Facebook or Twitter in your web application or RESTful API isn&#8217;t possible.
 
 <img src="{{ site.url }}/img/uploads/2014/11/token-150x150.jpg" alt="token" width="150" height="150" class="alignleft size-thumbnail wp-image-425" />

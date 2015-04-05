@@ -1,5 +1,6 @@
 ---
 title: My Intro to Application Security
+description: Various overview activities for a seasoned developer to learn about application security.
 author: Jamie Kurtz
 layout: blog-post
 permalink: /2014/07/15/my-intro-to-application-security/
@@ -10,6 +11,7 @@ categories:
   - AppSec
   - Software Security
   - Pentesting
+keywords: appsec, introduction to application security, pentesting, developer
 ---
 The information below serves as a list of education-related activities for me to follow as I slowly make my way into the deep dark world of Application Security (appsec).
 

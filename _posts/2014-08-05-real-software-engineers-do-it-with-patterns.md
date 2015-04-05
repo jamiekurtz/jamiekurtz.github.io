@@ -1,5 +1,6 @@
 ---
 title: Real Software Engineers Do It With Patterns
+description: Software engineers should learn design patterns, love them, and leverage their collective power based on the experience many great engineers before us.
 author: Jamie Kurtz
 layout: blog-post
 permalink: /2014/08/05/real-software-engineers-do-it-with-patterns/
@@ -13,7 +14,9 @@ tags:
   - design
   - pattaerns
   - SOLID
+keywords: design patterns, gang of four, strategy pattern, chain of responsibility, solid, clean code, patterns of enterprise application architecture,clean code,design,pattaerns,solid
 ---
+
 **Patterns**. They make the world go round. They are the building blocks on which we base so much of what we create in society.
 
 Whether it be established patterns for making coffee, a pattern for sowing a pair of pants, the tried-and-true patterns of building architecture, or the patterns software engineers use to design and build applications, patterns of all shapes and sizes really do make the world go round.
