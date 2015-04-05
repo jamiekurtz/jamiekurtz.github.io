@@ -146,7 +146,7 @@ Last question&#8230;
 
 ## What Does All This Mean for My Web API REST Service?
 
-You have to ask yourself, &#8220;do I need to identify a caller?&#8221; If so, then you need to support either basic authentication or OpenID. Ok, yes, there are other means of authentication, but I&#8217;m trying to keep this simple. Further, these two approaches will cover at least 90% of real-world scenarios. In my book and sample code I tell you exactly how to implement basic authentication in a Web API service. And we&#8217;ll cover an OpenID and OAuth implementations in the near future. *As a side-note, I encourage you to [sign up for my newsletter][1] to help stay on top of information/publications like this.*
+You have to ask yourself, &#8220;do I need to identify a caller?&#8221; If so, then you need to support either basic authentication or OpenID. Ok, yes, there are other means of authentication, but I&#8217;m trying to keep this simple. Further, these two approaches will cover at least 90% of real-world scenarios. In my book and sample code I tell you exactly how to implement basic authentication in a Web API service. And we&#8217;ll cover an OpenID and OAuth implementations in the near future. *As a side-note, I encourage you to sign up for my newsletter to help stay on top of information/publications like this.*
 
 The most straight-forward way to implement basic authentication in the Web API is to implement your own DelegatingHandler. This will allow you to validate the incoming credentials and then associate an IPrincipal on the current thread. Once the principal is set up, the .NET [Authorize] attribute &#8211; applied to Web API controllers and methods &#8211; will prevent unauthorized callers from calling your service. Again, please review the code in my book and sample code for more details on how to go about this.
 
@@ -158,4 +158,3 @@ The most straight-forward way to implement basic authentication in the Web API i
 *UPDATED 2/15/2015 &#8211; Removed Facebook as an OpenID provider (thanks to comment from Ryan Helmoski below).*  
 &nbsp;
 
- [1]: {{ site.url }}/newsletter-registration/
