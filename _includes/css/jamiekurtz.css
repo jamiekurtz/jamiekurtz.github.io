@@ -330,8 +330,12 @@ fieldset[disabled] .btn-xl.active {
 
 
 @media(min-width:1px) {
+    .logo {
+        margin-top: 30px;
+    }
+
     .logo .intro-text {
-        width: 400px;
+        width: 75%;
     }
 
     .logo a {
@@ -642,4 +646,17 @@ body {
     margin-top: 20px;
     font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
     border-radius: 10px;
+}
+
+
+@media(min-width:1px) {
+    #header-carousel {
+        display: none;
+    }
+}
+
+@media(min-width:768px) {
+    #header-carousel {
+        display: block;
+    }
 }
