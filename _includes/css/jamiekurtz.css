@@ -409,6 +409,16 @@ header {
     }
 }
 
+#patterns-embed {
+    height: 320px;
+    width: 320px;
+}
+
+.slide-item p {
+    font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+}
 
 .slide-item a {
     color: #{{ site.color.secondary }}
