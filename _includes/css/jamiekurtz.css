@@ -329,8 +329,11 @@ header {
     font: 14px Helvetica, Arial, sans-serif;
     width: 240px;
     padding: 5px;
-    padding-right: 8px;
+    padding-right: 10px;
+    border-radius: 10px;
+    margin-bottom: 20px;
 }
+
 .side-bar .content li {
     line-height: 16pt;
 }
@@ -628,3 +631,10 @@ body {
     background: #efefef;
 }
 
+.blog-info {
+    background: white;
+    padding: 20px;
+    margin-top: 20px;
+    font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    border-radius: 10px;
+}
