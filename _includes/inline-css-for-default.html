@@ -1,0 +1,84 @@
+<style>
+* { box-sizing: border-box; }
+html { font-family: sans-serif; font-size: 10px; -webkit-tap-highlight-color: rgba(0, 0, 0, 0); }
+body { margin: 0px; font-family: 'Roboto Slab', 'Helvetica Neue', Helvetica, Arial, sans-serif; font-size: 15px; line-height: 1.42857143; color: rgb(165, 108, 54); background-color: rgb(255, 255, 255); overflow-x: hidden; }
+article, aside, details, figcaption, figure, footer, header, hgroup, main, nav, section, summary { display: block; }
+.navbar { position: relative; min-height: 60px; margin-bottom: 21px; border: 1px solid transparent; border-radius: 4px; border-width: 0px; }
+.navbar-fixed-top, .navbar-fixed-bottom { position: fixed; right: 0px; left: 0px; z-index: 1030; -webkit-transform: translate3d(0px, 0px, 0px); transform: translate3d(0px, 0px, 0px); border-radius: 0px; }
+.navbar-fixed-top { top: 0px; border-width: 0px 0px 1px; }
+.navbar-default { border-color: transparent; background-color: transparent; padding: 25px 0px; border: 0px; transition: padding 0.3s; -webkit-transition: padding 0.3s; }
+.container { margin-right: auto; margin-left: auto; padding-left: 15px; padding-right: 15px; width: 1170px; }
+.navbar-header { float: left; }
+.container > .navbar-header, .container-fluid > .navbar-header, .container > .navbar-collapse, .container-fluid > .navbar-collapse { margin-right: 0px; margin-left: 0px; }
+button, input, optgroup, select, textarea { color: inherit; font-family: inherit; font-size: inherit; font-style: inherit; font-variant: inherit; font-weight: inherit; font-stretch: inherit; line-height: inherit; margin: 0px; }
+button { overflow: visible; }
+button, select { text-transform: none; }
+button, html input[type="button"], input[type="reset"], input[type="submit"] { -webkit-appearance: button; cursor: pointer; }
+input, button, select, textarea { font-family: inherit; font-size: inherit; line-height: inherit; }
+.navbar-toggle { position: relative; float: right; margin-right: 15px; padding: 9px 10px; margin-top: 13px; margin-bottom: 13px; border: 1px solid transparent; border-radius: 4px; background-image: none; background-color: transparent; display: none; }
+.navbar-default .navbar-toggle { border-color: rgb(59, 109, 165); background-color: rgb(59, 109, 165); }
+.sr-only { position: absolute; width: 1px; height: 1px; margin: -1px; padding: 0px; overflow: hidden; clip: rect(0px 0px 0px 0px); border: 0px; }
+.navbar-toggle .icon-bar { display: block; width: 22px; height: 2px; border-radius: 1px; }
+.navbar-default .navbar-toggle .icon-bar { background-color: rgb(255, 255, 255); }
+.navbar-toggle .icon-bar + .icon-bar { margin-top: 4px; }
+a { background: transparent; color: rgb(59, 109, 165); text-decoration: none; }
+a, a:hover, a:focus, a:active, a.active { outline: 0px; }
+.logo a { text-decoration: none; color: rgb(165, 108, 54); }
+img { border: 0px; vertical-align: middle; }
+.img-responsive, .thumbnail > img, .thumbnail a > img, .carousel-inner > .item > img, .carousel-inner > .item > a > img { display: block; max-width: 100%; height: auto; }
+.img-rounded { border-radius: 6px; }
+.alignleft { float: left; margin: 5px 20px 20px 0px; }
+.logo img { margin: 10px 20px 0px auto; padding-bottom: 10px; height: 100px; width: auto; }
+.logo .intro-text { width: 400px; }
+.logo .intro-text .intro-lead-in { margin-bottom: 5px; font-family: Oswald, 'Helvetica Neue', Helvetica, Arial, sans-serif; font-size: 50px; font-weight: 300; text-transform: uppercase; color: white; margin-top: -28px; }
+.logo .intro-text .intro-heading { font-family: Montserrat, 'Helvetica Neue', Helvetica, Arial, sans-serif; font-size: 14px; font-weight: 700; color: white; }
+.collapse { display: none; }
+.navbar-collapse { overflow-x: visible; padding-right: 15px; padding-left: 15px; border-top-width: 0px; border-top-style: solid; border-top-color: transparent; box-shadow: none; width: auto; }
+.navbar-collapse.collapse { padding-bottom: 0px; display: block !important; height: auto !important; overflow: visible !important; }
+.navbar-fixed-top .navbar-collapse, .navbar-static-top .navbar-collapse, .navbar-fixed-bottom .navbar-collapse { padding-left: 0px; padding-right: 0px; }
+.navbar-fixed-top .navbar-collapse, .navbar-fixed-bottom .navbar-collapse { max-height: 340px; }
+.navbar-default .navbar-collapse, .navbar-default .navbar-form { border-color: transparent; }
+.navbar-default .navbar-collapse { border-color: rgba(255, 255, 255, 0.0196078); }
+.navbar .navbar-collapse { text-align: center; }
+ul, ol { margin-top: 0px; margin-bottom: 10.5px; }
+.nav { margin-bottom: 0px; padding-left: 0px; list-style: none; }
+.navbar-nav { margin: 0px; float: left; }
+.navbar .navbar-nav { display: inline-block; float: none; vertical-align: top; }
+.hidden { display: none !important; visibility: hidden !important; }
+.nav > li { position: relative; display: block; }
+.navbar-nav > li { float: left; }
+.nav > li > a { position: relative; display: block; padding: 10px 15px; }
+.navbar-nav > li > a { padding-top: 19.5px; padding-bottom: 19.5px; line-height: 21px; }
+.navbar-default .navbar-nav > li > a { color: rgb(255, 255, 255); }
+.navbar-default .nav li a { text-transform: uppercase; font-family: Montserrat, 'Helvetica Neue', Helvetica, Arial, sans-serif; font-weight: 400; letter-spacing: 1px; color: rgb(255, 255, 255); }
+.navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .active > a:hover, .navbar-default .navbar-nav > .active > a:focus { color: rgb(255, 255, 255); background-color: rgb(26, 36, 47); }
+.navbar-default .navbar-nav > .active > a { border-radius: 3px; color: rgb(255, 255, 255); background-color: rgb(59, 109, 165); }
+.carousel { position: relative; }
+#header-carousel { display: block; }
+.carousel-inner { position: relative; overflow: hidden; width: 100%; }
+.slide-item { -webkit-background-size: cover; padding-bottom: 1000px; background-size: cover; background-position: 50% 50%; }
+.carousel-inner > .item { display: none; position: relative; transition: left 0.6s ease-in-out; -webkit-transition: left 0.6s ease-in-out; }
+#slide-innovation { background-image: url(http://www.jamiekurtz.com/img/bulb.jpg); }
+.row { margin-left: -15px; margin-right: -15px; }
+.col-xs-1, .col-sm-1, .col-md-1, .col-lg-1, .col-xs-2, .col-sm-2, .col-md-2, .col-lg-2, .col-xs-3, .col-sm-3, .col-md-3, .col-lg-3, .col-xs-4, .col-sm-4, .col-md-4, .col-lg-4, .col-xs-5, .col-sm-5, .col-md-5, .col-lg-5, .col-xs-6, .col-sm-6, .col-md-6, .col-lg-6, .col-xs-7, .col-sm-7, .col-md-7, .col-lg-7, .col-xs-8, .col-sm-8, .col-md-8, .col-lg-8, .col-xs-9, .col-sm-9, .col-md-9, .col-lg-9, .col-xs-10, .col-sm-10, .col-md-10, .col-lg-10, .col-xs-11, .col-sm-11, .col-md-11, .col-lg-11, .col-xs-12, .col-sm-12, .col-md-12, .col-lg-12 { position: relative; min-height: 1px; padding-left: 15px; padding-right: 15px; }
+.col-lg-1, .col-lg-2, .col-lg-3, .col-lg-4, .col-lg-5, .col-lg-6, .col-lg-7, .col-lg-8, .col-lg-9, .col-lg-10, .col-lg-11, .col-lg-12 { float: left; }
+.col-lg-3 { width: 25%; }
+.slide-item a { color: rgb(245, 212, 148); }
+h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 { font-family: Lato, 'Helvetica Neue', Helvetica, Arial, sans-serif; font-weight: 400; line-height: 1.1; color: inherit; }
+h4, .h4, h5, .h5, h6, .h6 { margin-top: 10.5px; margin-bottom: 10.5px; }
+h4, .h4 { font-size: 19px; }
+h1, h2, h3, h4, h5, h6 { text-transform: uppercase; font-family: Montserrat, 'Helvetica Neue', Helvetica, Arial, sans-serif; font-weight: 700; }
+p { margin: 0px 0px 10.5px; font-size: 14px; line-height: 1.75; }
+.slide-item p { font-family: Montserrat, 'Helvetica Neue', Helvetica, Arial, sans-serif; font-size: 16px; font-weight: 400; }
+#slide-security { background-image: url(http://www.jamiekurtz.com/img/key.jpg); }
+.col-lg-offset-5 { margin-left: 41.66666667%; }
+.carousel-inner > .active, .carousel-inner > .next, .carousel-inner > .prev { display: block; }
+.carousel-inner > .active { left: 0px; }
+#slide-numbers { background-image: url(http://www.jamiekurtz.com/img/numbers.jpg); }
+#patterns-embed { height: 320px; width: 320px; }
+#slide-outdoors { background-image: url(http://www.jamiekurtz.com/img/mountain-lake.jpg); }
+.col-lg-offset-4 { margin-left: 33.33333333%; }
+.carousel-control { position: absolute; top: 0px; left: 0px; bottom: 0px; width: 15%; opacity: 0.5; font-size: 20px; color: rgb(255, 255, 255); text-align: center; text-shadow: rgba(0, 0, 0, 0.6) 0px 1px 2px; }
+.carousel-control.left { background-image: linear-gradient(to right, rgba(0, 0, 0, 0.498039) 0px, rgba(0, 0, 0, 0) 100%); background-repeat: repeat-x; }
+.carousel-control.right { left: auto; right: 0px; background-image: linear-gradient(to right, rgba(0, 0, 0, 0) 0px, rgba(0, 0, 0, 0.498039) 100%); background-repeat: repeat-x; }
+</style>
