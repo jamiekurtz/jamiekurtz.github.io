@@ -87,3 +87,10 @@ address:
 # Build settings
 markdown: kramdown
 permalink: pretty
+
+compress_html:
+  clippings: all
+  comments: ["<!-- ", " -->"]
+  endings: all
+
+
