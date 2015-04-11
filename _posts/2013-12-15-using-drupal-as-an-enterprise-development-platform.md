@@ -38,11 +38,11 @@ And, truth be told, we needed to empower our front-end web designers and develop
 
 A key requirement for whether or not we could even write the book was in being confident that Drupal could cover most or all common application architecture and development concerns. So we created a list of requirements you&#8217;d typically find in an enterprise-level application. Here&#8217;s a portion of that list (as seen in Chapter 1 of our book). This figure also describes how a developer might implement the functionality if using a code-level library &#8211; e.g. a Nuget package in .NET or a gem in Ruby, etc.
 
-![][4]
+<img src="{{ site.url }}/img/uploads/2013/12/app-libraries.png" width="700" />
 
 Then next we mapped those requirements into various Drupal modules &#8211; seen in this next figure.
 
-![][5]
+<img src="{{ site.url }}/img/uploads/2013/12/app-libraries-drupal.png" width="700" />
 
 Some of the other concerns we mapped into Drupal include: packaging and deployment, executing batch jobs, OAuth support, single sign-on with windows AD or other LDAP directory, change auditing, data caching, system-level settings, localization of content, and multi-tenancy. All of these are covered in our book.
 
@@ -62,16 +62,10 @@ In our minds, Drupal is more than just a Content Management System (CMS) &#8211;
 
 The book we wrote is a reflection of our excitement for being able to leverage a platform like Drupal &#8211; much more than your typical CMS, and much more than a set of code-level packages and libraries. The next time you sit down to design a new web site or backend SOAP or REST service, we strongly encourage to take a look at Drupal You just might like it. And we can almost gaurantee your bosses and clients will like it.
 
-> *Information on Drupal can be found, among other places, on [Drupal.org][6] and [Acquia][7].*
 
-> *This post written in and [converted from markdown][8] with [pandoc][9].*
+**Information on Drupal can be found, among other places, on [Drupal.org][6] and [Acquia][7].**
 
  [1]: https://twitter.com/tbesluau
- [2]:
  [3]: http://nodejs.org/
- [4]: {{ site.url }}/img/uploads/2013/12/app-libraries.png
- [5]: {{ site.url }}/img/uploads/2013/12/app-libraries-drupal.png
  [6]: http://drupal.org
  [7]: https://www.acquia.com/
- [8]: {{ site.url }}/2013/10/11/leveraging-continuous-delivery-and-pandoc-for-publishing-content/
- [9]: http://johnmacfarlane.net/pandoc
