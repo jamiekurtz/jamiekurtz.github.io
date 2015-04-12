@@ -313,6 +313,10 @@ fieldset[disabled] .btn-xl.active {
     margin-bottom: 20px;
 }
 
+.side-bar .content iframe {
+    width: 220px;
+}
+
 .side-bar .content li {
     line-height: 16pt;
 }
