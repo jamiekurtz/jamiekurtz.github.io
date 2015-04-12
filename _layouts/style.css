@@ -1,2 +1,5 @@
+---
+layout: compress
+---
 {% include css/bootstrap.min.css %}
 {% include css/jamiekurtz.css %}
