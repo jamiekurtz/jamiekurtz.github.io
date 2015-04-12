@@ -54,7 +54,17 @@ ul, ol { margin-top: 0px; margin-bottom: 10.5px; }
 .navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .active > a:hover, .navbar-default .navbar-nav > .active > a:focus { color: rgb(255, 255, 255); background-color: rgb(26, 36, 47); }
 .navbar-default .navbar-nav > .active > a { border-radius: 3px; color: rgb(255, 255, 255); background-color: rgb(59, 109, 165); }
 .carousel { position: relative; }
-#header-carousel { display: block; }
+@media(min-width:1px) {
+    .mobile-hide {
+        display: none;
+    }
+}
+
+@media(min-width:768px) {
+    .mobile-hide {
+        display: block;
+    }
+}
 .carousel-inner { position: relative; overflow: hidden; width: 100%; }
 .slide-item { -webkit-background-size: cover; padding-bottom: 1000px; background-size: cover; background-position: 50% 50%; }
 .carousel-inner > .item { display: none; position: relative; transition: left 0.6s ease-in-out; -webkit-transition: left 0.6s ease-in-out; }

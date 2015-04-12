@@ -449,6 +449,7 @@ fieldset[disabled] .btn-xl.active {
 
 section {
     padding: 100px 0;
+    /*width: 1200px;*/
 }
 
 section h2.section-heading {
@@ -661,13 +662,13 @@ body {
 }
 
 @media(min-width:1px) {
-    #header-carousel {
+    .mobile-hide {
         display: none;
     }
 }
 
 @media(min-width:768px) {
-    #header-carousel {
+    .mobile-hide {
         display: block;
     }
 }
