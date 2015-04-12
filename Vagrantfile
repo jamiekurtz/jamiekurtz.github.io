@@ -13,6 +13,7 @@ Vagrant.configure(VAGRANTFILE_API_VERSION) do |config|
   config.vm.box = "ubuntu/trusty64"
 
   config.vm.network "forwarded_port", guest: 4000, host: 4000
+  config.vm.network "public_network", bridge: 'wlp3s0'
 
   config.vm.synced_folder ".", "/vagrant", type: "rsync", rsync__exclude: [".git/", "_site/"]
 
