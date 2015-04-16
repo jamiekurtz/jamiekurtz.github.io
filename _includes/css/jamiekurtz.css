@@ -691,3 +691,23 @@ body {
     border-radius: 10px;
     margin: 20px 0px;
 }
+
+@media(min-width: 1px) {
+    .leader-ad-mobile {
+        display: inline-block;
+    }
+
+    .leader-ad-regular {
+        display: none;
+    }
+}
+
+@media(min-width: 768px) {
+    .leader-ad-mobile {
+        display: none;
+    }
+
+    .leader-ad-regular {
+        display: inline-block;
+    }
+}
