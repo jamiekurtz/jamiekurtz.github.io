@@ -231,6 +231,10 @@ fieldset[disabled] .btn-xl.active {
     background-color: #{{ site.color.secondary }};
 }
 
+.navbar-fixed-top {
+    position: relative;
+}
+
 @media(min-width:768px) {
     .navbar-default {
         padding: 25px 0;
@@ -262,6 +266,11 @@ fieldset[disabled] .btn-xl.active {
         visibility: visible;
         font-size: 1.5em;
     }
+
+    .navbar-fixed-top {
+        position: fixed;
+    }
+
 }
 
 @media (min-width: 768px) {
