@@ -78,6 +78,8 @@ social:
     url: https://www.linkedin.com/pub/jamie-kurtz/1a/658/bb9
   - title: github
     url: http://github.com/jamiekurtz
+  - title: rss
+    url: /feed
 
 # Postal address (add as many lines as necessary)
 address:

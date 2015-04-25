@@ -47,9 +47,19 @@
 
 <div class="side-bar">
 
+    <div class="content" style="text-align: center;">
+        <ul class="list-inline social-buttons">
+            {% for network in site.social %}
+            <li><a href="{{ network.url }}"><i class="fa fa-{{ network.title }}"></i></a>
+            </li>
+            {% endfor %}
+        </ul>
+    </div>
+
     <div class="content">
         <a target="_blank" href="http://feeds.feedburner.com/~r/JamieKurtz/~6/1"><img src="http://feeds.feedburner.com/JamieKurtz.1.gif" alt="Jamie Kurtz" style="border:0; width: 220px"></a>
     </div>
+
 
     <div class="content">
         <!-- Begin MailChimp Signup Form -->
