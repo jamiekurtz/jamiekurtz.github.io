@@ -1,32 +1,32 @@
 <style>
     * { box-sizing: border-box; }
     html { font-family: sans-serif; font-size: 10px; -webkit-tap-highlight-color: rgba(0, 0, 0, 0); }
-    body { margin: 0px; font-family: 'Roboto Slab', 'Helvetica Neue', Helvetica, Arial, sans-serif; font-size: 15px; line-height: 1.42857143; color: rgb(165, 108, 54); background-color: rgb(255, 255, 255); overflow-x: hidden; }
-    article, aside, details, figcaption, figure, footer, header, hgroup, main, nav, section, summary { display: block; }
-    .navbar { position: relative; min-height: 60px; margin-bottom: 21px; border: 1px solid transparent; border-radius: 4px; border-width: 0px; }
-    .navbar-fixed-top, .navbar-fixed-bottom { position: fixed; right: 0px; left: 0px; z-index: 1030; -webkit-transform: translate3d(0px, 0px, 0px); transform: translate3d(0px, 0px, 0px); border-radius: 0px; }
-    .navbar-fixed-top { top: 0px; border-width: 0px 0px 1px; }
+    body { margin: 0px; font-family: 'Roboto Slab', 'Helvetica Neue', Helvetica, Arial, sans-serif; font-size: 14px; line-height: 1.42857143; color: rgb(165, 108, 54); background-color: rgb(255, 255, 255); overflow-x: hidden; }
+    article, aside, details, figcaption, figure, footer, header, hgroup, main, menu, nav, section, summary { display: block; }
+    .navbar { position: relative; min-height: 50px; margin-bottom: 20px; border: 1px solid transparent; border-radius: 4px; }
+    .navbar-fixed-bottom, .navbar-fixed-top { position: fixed; right: 0px; left: 0px; z-index: 1030; border-radius: 0px; }
+    .navbar-fixed-top { top: 0px; border-width: 0px 0px 1px; position: fixed; }
     .navbar-default { border-color: transparent; background-color: transparent; padding: 25px 0px; border: 0px; transition: padding 0.3s; -webkit-transition: padding 0.3s; }
-    .navbar-default.navbar-shrink { padding: 20px 0px 0px; background-color: rgb(34, 34, 34); }
-    .container { margin-right: auto; margin-left: auto; padding-left: 15px; padding-right: 15px; width: 1170px; }
+    .navbar-override { padding: 20px 0px 0px; background-color: rgb(34, 34, 34); }
+    .container { padding-right: 15px; padding-left: 15px; margin-right: auto; margin-left: auto; width: 1170px; }
     .navbar-header { float: left; }
-    .container > .navbar-header, .container-fluid > .navbar-header, .container > .navbar-collapse, .container-fluid > .navbar-collapse { margin-right: 0px; margin-left: 0px; }
-    button, input, optgroup, select, textarea { color: inherit; font-family: inherit; font-size: inherit; font-style: inherit; font-variant: inherit; font-weight: inherit; font-stretch: inherit; line-height: inherit; margin: 0px; }
+    .container-fluid > .navbar-collapse, .container-fluid > .navbar-header, .container > .navbar-collapse, .container > .navbar-header { margin-right: 0px; margin-left: 0px; }
+    button, input, optgroup, select, textarea { margin: 0px; font-family: inherit; font-size: inherit; font-style: inherit; font-variant: inherit; font-weight: inherit; font-stretch: inherit; line-height: inherit; color: inherit; }
     button { overflow: visible; }
     button, select { text-transform: none; }
     button, html input[type="button"], input[type="reset"], input[type="submit"] { -webkit-appearance: button; cursor: pointer; }
-    input, button, select, textarea { font-family: inherit; font-size: inherit; line-height: inherit; }
-    .navbar-toggle { position: relative; float: right; margin-right: 15px; padding: 9px 10px; margin-top: 13px; margin-bottom: 13px; border: 1px solid transparent; border-radius: 4px; background-image: none; background-color: transparent; display: none; }
+    button, input, select, textarea { font-family: inherit; font-size: inherit; line-height: inherit; }
+    .navbar-toggle { position: relative; float: right; padding: 9px 10px; margin-top: 8px; margin-right: 15px; margin-bottom: 8px; border: 1px solid transparent; border-radius: 4px; background-image: none; background-color: transparent; display: none; }
     .navbar-default .navbar-toggle { border-color: rgb(59, 109, 165); background-color: rgb(59, 109, 165); }
-    .sr-only { position: absolute; width: 1px; height: 1px; margin: -1px; padding: 0px; overflow: hidden; clip: rect(0px 0px 0px 0px); border: 0px; }
+    .sr-only { position: absolute; width: 1px; height: 1px; padding: 0px; margin: -1px; overflow: hidden; clip: rect(0px 0px 0px 0px); border: 0px; }
     .navbar-toggle .icon-bar { display: block; width: 22px; height: 2px; border-radius: 1px; }
     .navbar-default .navbar-toggle .icon-bar { background-color: rgb(255, 255, 255); }
     .navbar-toggle .icon-bar + .icon-bar { margin-top: 4px; }
-    a { background: transparent; color: rgb(59, 109, 165); text-decoration: none; }
+    a { background-color: transparent; color: rgb(59, 109, 165); text-decoration: none; }
     a, a:hover, a:focus, a:active, a.active { outline: 0px; }
     .logo a { text-decoration: none; color: rgb(165, 108, 54); }
     img { border: 0px; vertical-align: middle; }
-    .img-responsive, .thumbnail > img, .thumbnail a > img, .carousel-inner > .item > img, .carousel-inner > .item > a > img { display: block; max-width: 100%; height: auto; }
+    .carousel-inner > .item > a > img, .carousel-inner > .item > img, .img-responsive, .thumbnail a > img, .thumbnail > img { display: block; max-width: 100%; height: auto; }
     .img-rounded { border-radius: 6px; }
     .alignleft { float: left; margin: 5px 20px 20px 0px; }
     .logo img { margin: 10px 20px 0px auto; padding-bottom: 10px; height: 100px; width: auto; }
@@ -34,44 +34,63 @@
     .logo .intro-text .intro-lead-in { margin-bottom: 5px; font-family: Oswald, 'Helvetica Neue', Helvetica, Arial, sans-serif; font-size: 50px; font-weight: 300; text-transform: uppercase; color: white; margin-top: -28px; }
     .logo .intro-text .intro-heading { font-family: Montserrat, 'Helvetica Neue', Helvetica, Arial, sans-serif; font-size: 14px; font-weight: 700; color: white; }
     .collapse { display: none; }
-    .navbar-collapse { overflow-x: visible; padding-right: 15px; padding-left: 15px; border-top-width: 0px; border-top-style: solid; border-top-color: transparent; box-shadow: none; width: auto; }
+    .navbar-collapse { padding-right: 15px; padding-left: 15px; overflow-x: visible; border-top-width: 0px; border-top-style: solid; border-top-color: transparent; -webkit-box-shadow: none; box-shadow: none; width: auto; }
     .navbar-collapse.collapse { padding-bottom: 0px; display: block !important; height: auto !important; overflow: visible !important; }
-    .navbar-fixed-top .navbar-collapse, .navbar-static-top .navbar-collapse, .navbar-fixed-bottom .navbar-collapse { padding-left: 0px; padding-right: 0px; }
-    .navbar-fixed-top .navbar-collapse, .navbar-fixed-bottom .navbar-collapse { max-height: 340px; }
-    .navbar-default .navbar-collapse, .navbar-default .navbar-form { border-color: transparent; }
+    .navbar-fixed-bottom .navbar-collapse, .navbar-fixed-top .navbar-collapse, .navbar-static-top .navbar-collapse { padding-right: 0px; padding-left: 0px; }
+    .navbar-fixed-bottom .navbar-collapse, .navbar-fixed-top .navbar-collapse { max-height: 340px; }
+    .navbar-default .navbar-collapse, .navbar-default .navbar-form { border-color: rgb(231, 231, 231); }
     .navbar-default .navbar-collapse { border-color: rgba(255, 255, 255, 0.0196078); }
     .navbar .navbar-collapse { text-align: center; }
-    ul, ol { margin-top: 0px; margin-bottom: 10.5px; }
-    .nav { margin-bottom: 0px; padding-left: 0px; list-style: none; }
+    ol, ul { margin-top: 0px; margin-bottom: 10px; }
+    .nav { padding-left: 0px; margin-bottom: 0px; list-style: none; }
     .navbar-nav { margin: 0px; float: left; }
+    .navbar-right { margin-right: -15px; float: right !important; }
     .navbar .navbar-nav { display: inline-block; float: none; vertical-align: top; }
-    .hidden { display: none !important; visibility: hidden !important; }
+    .hidden { display: none !important; }
     .nav > li { position: relative; display: block; }
     .navbar-nav > li { float: left; }
     .nav > li > a { position: relative; display: block; padding: 10px 15px; }
-    .navbar-nav > li > a { padding-top: 19.5px; padding-bottom: 19.5px; line-height: 21px; }
-    .navbar-default .navbar-nav > li > a { color: rgb(255, 255, 255); }
+    .navbar-nav > li > a { padding-top: 15px; padding-bottom: 15px; line-height: 20px; }
+    .navbar-default .navbar-nav > li > a { color: rgb(119, 119, 119); }
     .navbar-default .nav li a { text-transform: uppercase; font-family: Montserrat, 'Helvetica Neue', Helvetica, Arial, sans-serif; font-weight: 400; letter-spacing: 1px; color: rgb(255, 255, 255); }
-    .navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .active > a:hover, .navbar-default .navbar-nav > .active > a:focus { color: rgb(255, 255, 255); background-color: rgb(26, 36, 47); }
+    .navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .active > a:focus, .navbar-default .navbar-nav > .active > a:hover { color: rgb(85, 85, 85); background-color: rgb(231, 231, 231); }
     .navbar-default .navbar-nav > .active > a { border-radius: 3px; color: rgb(255, 255, 255); background-color: rgb(59, 109, 165); }
-    p { margin: 0px 0px 10.5px; font-size: 14px; line-height: 1.75; }
+    .mobile-hide { display: block; }
+    p { margin: 0px 0px 10px; font-size: 14px; line-height: 1.75; }
     .text-muted { color: rgb(119, 119, 119); }
-    .row { margin-left: -15px; margin-right: -15px; }
-    .col-xs-1, .col-sm-1, .col-md-1, .col-lg-1, .col-xs-2, .col-sm-2, .col-md-2, .col-lg-2, .col-xs-3, .col-sm-3, .col-md-3, .col-lg-3, .col-xs-4, .col-sm-4, .col-md-4, .col-lg-4, .col-xs-5, .col-sm-5, .col-md-5, .col-lg-5, .col-xs-6, .col-sm-6, .col-md-6, .col-lg-6, .col-xs-7, .col-sm-7, .col-md-7, .col-lg-7, .col-xs-8, .col-sm-8, .col-md-8, .col-lg-8, .col-xs-9, .col-sm-9, .col-md-9, .col-lg-9, .col-xs-10, .col-sm-10, .col-md-10, .col-lg-10, .col-xs-11, .col-sm-11, .col-md-11, .col-lg-11, .col-xs-12, .col-sm-12, .col-md-12, .col-lg-12 { position: relative; min-height: 1px; padding-left: 15px; padding-right: 15px; }
-    .col-lg-1, .col-lg-2, .col-lg-3, .col-lg-4, .col-lg-5, .col-lg-6, .col-lg-7, .col-lg-8, .col-lg-9, .col-lg-10, .col-lg-11, .col-lg-12 { float: left; }
+    .row { margin-right: -15px; margin-left: -15px; }
+    .col-lg-1, .col-lg-10, .col-lg-11, .col-lg-12, .col-lg-2, .col-lg-3, .col-lg-4, .col-lg-5, .col-lg-6, .col-lg-7, .col-lg-8, .col-lg-9, .col-md-1, .col-md-10, .col-md-11, .col-md-12, .col-md-2, .col-md-3, .col-md-4, .col-md-5, .col-md-6, .col-md-7, .col-md-8, .col-md-9, .col-sm-1, .col-sm-10, .col-sm-11, .col-sm-12, .col-sm-2, .col-sm-3, .col-sm-4, .col-sm-5, .col-sm-6, .col-sm-7, .col-sm-8, .col-sm-9, .col-xs-1, .col-xs-10, .col-xs-11, .col-xs-12, .col-xs-2, .col-xs-3, .col-xs-4, .col-xs-5, .col-xs-6, .col-xs-7, .col-xs-8, .col-xs-9 { position: relative; min-height: 1px; padding-right: 15px; padding-left: 15px; }
+    .col-lg-1, .col-lg-10, .col-lg-11, .col-lg-12, .col-lg-2, .col-lg-3, .col-lg-4, .col-lg-5, .col-lg-6, .col-lg-7, .col-lg-8, .col-lg-9 { float: left; }
     .col-lg-8 { width: 66.66666667%; }
     .col-lg-offset-1 { margin-left: 8.33333333%; }
     .leader { clear: left; font-style: normal; font-variant: normal; font-weight: normal; font-stretch: normal; font-size: 14px; line-height: normal; font-family: Helvetica, Arial, sans-serif; padding: 10px; border-radius: 10px; margin: 20px 0px; background: white; }
+    .leader-ad-mobile { display: none; }
+    .leader-ad-regular { display: inline-block; }
     .blog-info { padding: 20px; margin-bottom: 20px; font-family: Montserrat, 'Helvetica Neue', Helvetica, Arial, sans-serif; border-radius: 10px; background: white; }
-    h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 { font-family: Lato, 'Helvetica Neue', Helvetica, Arial, sans-serif; font-weight: 400; line-height: 1.1; color: inherit; }
-    h1, .h1, h2, .h2, h3, .h3 { margin-top: 21px; margin-bottom: 10.5px; }
-    h3, .h3 { font-size: 26px; }
+    .h1, .h2, .h3, .h4, .h5, .h6, h1, h2, h3, h4, h5, h6 { font-family: inherit; font-weight: 500; line-height: 1.1; color: inherit; }
+    .h1, .h2, .h3, h1, h2, h3 { margin-top: 20px; margin-bottom: 10px; }
+    .h3, h3 { font-size: 24px; }
     h1, h2, h3, h4, h5, h6 { text-transform: uppercase; font-family: Montserrat, 'Helvetica Neue', Helvetica, Arial, sans-serif; font-weight: 700; }
     .col-lg-3 { width: 25%; }
     .side-bar .content { clear: left; font-style: normal; font-variant: normal; font-weight: normal; font-stretch: normal; font-size: 14px; line-height: normal; font-family: Helvetica, Arial, sans-serif; width: 240px; padding: 10px; border-radius: 10px; margin-bottom: 20px; background: white; }
-    h2, .h2 { font-size: 32px; }
+    .list-inline { padding-left: 0px; margin-left: -5px; list-style: none; }
+    ul.social-buttons { margin-bottom: 0px; }
+    .list-inline > li { display: inline-block; padding-right: 5px; padding-left: 5px; }
     .side-bar .content li { line-height: 16pt; }
-    label { display: inline-block; max-width: 100%; margin-bottom: 5px; font-weight: bold; }
+    ul.social-buttons li a { display: block; width: 40px; height: 40px; border-radius: 100%; font-size: 20px; line-height: 40px; outline: 0px; color: rgb(255, 255, 255); transition: all 0.3s; -webkit-transition: all 0.3s; background-color: rgb(34, 34, 34); }
+    #mc_embed_signup form { display: block; position: relative; text-align: left; padding: 10px 0px 10px 3%; }
+    .h2, h2 { font-size: 30px; }
+    #mc_embed_signup h2 { font-weight: bold; padding: 0px; margin: 15px 0px; font-size: 1.4em; }
+    #mc_embed_signup .indicates-required { text-align: right; font-size: 11px; margin-right: 4%; }
+    #mc_embed_signup .asterisk { color: rgb(204, 102, 0); font-size: 200%; }
+    #mc_embed_signup .mc-field-group { clear: left; position: relative; width: 96%; padding-bottom: 3%; min-height: 50px; }
+    label { display: inline-block; max-width: 100%; margin-bottom: 5px; font-weight: 700; }
+    #mc_embed_signup .mc-field-group label { display: block; margin-bottom: 3px; }
+    #mc_embed_signup .mc-field-group .asterisk { position: absolute; top: 25px; right: 10px; }
     input { line-height: normal; }
-    .form-control, input { border-width: 2px; -webkit-box-shadow: none; box-shadow: none; }
+    #mc_embed_signup input { border: 1px solid rgb(153, 153, 153); -webkit-appearance: none; }
+    #mc_embed_signup .mc-field-group input { display: block; width: 100%; padding: 8px 0px; text-indent: 2%; }
+    #mc_embed_signup div.response { margin: 1em 0px; padding: 1em 0.5em 0.5em 0px; font-weight: bold; float: left; top: -1.5em; z-index: 1; width: 80%; }
+    #mc_embed_signup #mce-error-response { display: none; }
+    #mc_embed_signup #mce-success-response { color: rgb(82, 146, 20); display: none; }
 </style>
