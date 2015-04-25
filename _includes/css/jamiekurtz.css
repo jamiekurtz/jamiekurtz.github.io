@@ -462,7 +462,6 @@ fieldset[disabled] .btn-xl.active {
 
 section {
     padding: 100px 0;
-    /*width: 1200px;*/
 }
 
 section h2.section-heading {
@@ -489,13 +488,6 @@ section h3.section-subheading {
 .service-heading {
     margin: 15px 0;
     text-transform: none;
-}
-
-
-@media(min-width:767px) {
-    #portfolio .portfolio-item {
-        margin: 0 0 30px;
-    }
 }
 
 .about img {
@@ -531,9 +523,9 @@ section h3.section-subheading {
 
 .blog-teaser {
     padding: 20px 20px;
-    margin-left: 4px;
-    margin-right: 4px;
-    margin-bottom: 20px;
+    margin-left: 6px;
+    margin-right: 6px;
+    margin-bottom: 30px;
     text-align: center;
     min-height: 400px;
     background-color: white;

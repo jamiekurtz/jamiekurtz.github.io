@@ -2,10 +2,10 @@
       <p>&nbsp;</p>
         <div class="container">
             <div class="row">
-                <div class="col-xs-12 col-lg-4">
+                <div class="col-xs-12 col-md-4">
                     <span class="copyright">&copy; {{ site.title }} 2015</span>
                 </div>
-                <div class="col-xs-12 col-lg-4">
+                <div class="col-xs-12 col-md-4">
                     <ul class="list-inline social-buttons">
                         {% for network in site.social %}
                         <li><a href="{{ network.url }}"><i class="fa fa-{{ network.title }}"></i></a>
@@ -13,11 +13,13 @@
                         {% endfor %}
                     </ul>
                 </div>
-                <div class="col-xs-12 col-lg-4">
+                <div class="col-xs-12 col-md-4">
                     <ul class="list-inline quicklinks">
                         <li><a href="/">Home</a>
                         </li>
                         <li><a href="/blog">Blog</a>
+                        </li>
+                        <li><a href="/my-intro-to-appsec-activities">Intro to AppSec</a>
                         </li>
                     </ul>
                 </div>
