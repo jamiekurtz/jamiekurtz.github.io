@@ -79,7 +79,7 @@ social:
   - title: github
     url: http://github.com/jamiekurtz
   - title: rss
-    url: /feed
+    url: http://feeds.feedburner.com/JamieKurtz
 
 # Postal address (add as many lines as necessary)
 address:
