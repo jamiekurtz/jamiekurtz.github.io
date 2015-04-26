@@ -342,9 +342,6 @@ fieldset[disabled] .btn-xl.active {
 
 
 @media(min-width:1px) {
-    /*.logo {*/
-        /*margin-top: 30px;*/
-    /*}*/
 
     .logo .intro-text {
         width: 75%;
@@ -390,9 +387,6 @@ fieldset[disabled] .btn-xl.active {
 }
 
 @media(min-width:768px) {
-    /*.logo {*/
-        /*margin-top: 0px;*/
-    /*}*/
 
     .logo .intro-text {
         width: 400px;
