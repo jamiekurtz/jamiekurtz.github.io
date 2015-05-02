@@ -320,7 +320,7 @@ fieldset[disabled] .btn-xl.active {
     background: white;
     clear: left;
     font: 14px Helvetica, Arial, sans-serif;
-    width: 240px;
+    /*width: 240px;*/
     padding: 10px;
     border-radius: 10px;
     margin-bottom: 20px;
@@ -339,6 +339,11 @@ fieldset[disabled] .btn-xl.active {
     /*opacity: 0.7;*/
 }
 
+@media(min-width: 768px) {
+    .side-bar .content {
+        width: 240px;
+    }
+}
 
 
 @media(min-width:1px) {
@@ -658,6 +663,7 @@ body {
     margin-bottom: 20px;
     font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
     border-radius: 10px;
+    word-wrap: break-word;
 }
 
 @media(min-width:1px) {
