@@ -1,5 +1,5 @@
 ---
-title: 10 Easy Tips For Lead and Clean Agile Development
+title: 10 Easy Tips For Lean and Clean Agile Development
 description:  A guided tour through ten easy-to-implement tips for reducing chaos, increasing efficiency, and helping your agile development teams run leaner and cleaner - and happier. 
 author: Jamie Kurtz
 layout: blog-post
@@ -80,6 +80,28 @@ The thinking that more developers means more better output is just foolish. It i
 
 Someone once told me that too many developers without enough analysts means the developers just make crap up to build. That's not good, as it's wasted time and money and increases frustration. Not enough testers means that **your users** find the bugs - instead of you. To say it another way, developers will undoubtedly create bugs. So the question isn't "how many bugs are there?", the question is "who's going to find them?!?!". A healthy ratio helps ensure that your own team finds the bugs - not the users. And of course too many analysts and not enough developers results in wasted time and wasted specs for features that never make it into the product. Essentially, the backlog gets longer and longer, and people just give up on ever seeing their "thing" make it into the product.
 
-"3/2/1" - that's the ratio to aim for.
+"3/2/1" - that's the ratio to aim for. Try it, and adjust for maximum **team** quality and velocity. 
+
+#### 4. Wednesday to Wednesday Iterations
+
+These days many (if not "most") development teams are utilizing some form of iterations or sprints to manage their work stream. This generally means you agree to start on day X, and end on day Y. For some reason it seems like the natural inclination is to start on a Monday and end on Friday. But for a few reasons, this is less than optimal, and can be downright maddening.
+
+When you end on a Friday, everyone pretty much works under the assumption that they really have the weekend to finish. So Friday usually slides into Monday. And for good reason. Why would you give a team only 5 days to do some amount of work when you can instead give them 7 (or, 12 instead of 14, etc.). 
+
+Further, those personal days and short vacations usually include Fridays and Mondays, so the chances of missing people are quite a bit higher if you start and/or stop on Mondays and Fridays.
+
+Then there's the typical human emotional baggage of Mondays and Fridays. Mondays kind of suck, and by Friday afternoon most people (at least, the hardest working and most efficient ones) are pretty well ready to be done. So forcing some big demo/wrap-up meeting every Friday from 2 to 5 is pretty pointless. Especially when you've got out-of-town consultants on board, as they are typically headed home by Friday afternoon. You'll do your team a favor by giving back their Monday mornings and Friday afternoons.
+
+If you currently run your sprints/iterations Monday to Friday, try switching to starting and ending on a Wednesday. I'm confident you'll find that the team is more likley to be fully engaged, and with weekends in there they might even get more done from time to time.
+
+#### 5. Implement Continuous Delivery First
+
+Hands down, the most effective way to really supercharge your development team is to ensure that they are receiving feedback early and often. This means the software is available for testing and general use early and often. This means, then, that the build-test-package-deployment process MUST be automated, or else some poor schmuck will end up spending all of his time manually preparing for and deploying "builds" (and, typically, screwing them up). 
+
+If those frequent "builds" and deployments aren't happening, then your team is - quite simply - wandering around in the dark guessing at what work needs to be done next. 
+
+The agile way of building software requires feedback. There's no way around it. One of my co-workers once said "constant feedback is baked into the agile way of creating software". I agree wholeheartedly. So much so that I tell people "if you aren't doing Continuous Delivery, then you aren't agile". Period. 
+
+To be fair, you can't just "turn on" [continuous delivery](http://continuousdelivery.com/) (CD). It does take some skill and experience. So maybe this particular trick isn't easy. **But you can** bring on a consultant that will make it easy. It generally doesn't take a ton of time for an engineer experienced in the ways of CD to right the ship. So if this is a new concept to you, reach out to me at [Fusion Alliance](http://www.fusionalliance.com). Either myself or a number of others would be happy to take a few weeks to turn on CD, and help your team realize the full potential of agile.
 
 
