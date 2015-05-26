@@ -46,7 +46,7 @@ These levels come courtesy years ago from one of the best team leads I've ever w
 
 #### 2. Great Hardware for Your Developers and Testers
 
-I'm continually astounded by the massive cost in time/billable-hours companies incur for something as trivial as a second or third monitor. You can just about make up the cost of a monitor in single day! 
+I'm continually astounded by the massive cost in time/billable-hours companies incur for something as trivial as a second or third monitor. You can just about make up the cost of a monitor in a single day! 
 
 I remember when 2nd monitors were just becoming popular, and I bought everyone on my team a second monitor to plug into their laptop. It cost me all of about $2000 total, and gained me something in the neighborhood of 30% increase in productiviy. Not to mention developer happiness. And, in this particular case, envy from developers on other teams in the company:)
 
@@ -58,7 +58,7 @@ The math is drop dead simple to do (e.g. $200 monitor to "buy back" an hour or t
 
 If you don't believe me, try buying a nice keyboard for everyone on your team. I've been very happy with the [Model S Ultimate from daskeyboard](http://www.daskeyboard.com/model-s-ultimate/). It really does make you learn to type faster. Or the relatively new one from Jeff Atwood - approproiately named the [Code Keyboard](https://codekeyboards.com/). Sure, they are in the range of $150. But trust me, buy a few, see what happens. 
 
-#### 3. Healthy Team Role Ratio
+#### 3. Effective Team Ratio
 
 This is another one of those "try it and adjust" things. But don't sell yourself short before giving it a chance. 
 
