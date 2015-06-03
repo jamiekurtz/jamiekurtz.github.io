@@ -104,4 +104,34 @@ The agile way of building software requires feedback. There's no way around it. 
 
 To be fair, you can't just "turn on" [continuous delivery](http://continuousdelivery.com/) (CD). It does take some skill and experience. So maybe this particular trick isn't easy. **But you can** bring on a consultant that will make it easy. It generally doesn't take a ton of time for an engineer experienced in the ways of CD to right the ship. So if this is a new concept to you, reach out to me at [Fusion Alliance](http://www.fusionalliance.com). Either myself or a number of others would be happy to take a few weeks to turn on CD, and help your team realize the full potential of agile.
 
+#### 6. Press Release on the Wall
+
+I learned years ago that one of the best things you can do to keep a team moving forwward, and in the right direction, is to "start with the press release". Before you worry about the backlog, or the next sprint, someone (usually the product owner or product/program manager type) needs to write a one-pager on the user-oriented things that will be in the next release. There are tips and templates online for writing press releases. But the main idea is to create a target of-sorts, which the development team can use to maintain focus. It's all too easy to miss the forest from the trees when you're staring at scrum boards and user stories all day everyday.
+
+What you want is a succinct list of brief business scenarios and user experience enhancements that all those user stories roll up into. Where a release might include a few dozen user stories (depending on the size of the release of, course), our one-pager should list at most maybe ten high-level scenarios. Many people nowadays call them epics. Regardless, they are intentionally higher level than the user stories. 
+
+So here's the the best part: make your one-pager big and colorful, like on a poster board, and put it on the wall for the entire team to see. I've even used graphic artists to create the poster so that it looks nice, looks professional, and then had them printed at Kinko's on nice big glossy posters. Then as stories get completed, you can indicate epic-level progress on the poster. This works very well to make sure everyone's working towards the bigger things, and not losing sight of the desired enhancements to the user's experience. 
+
+I'd even recommend adding a screen mockup or two, or other visualation, to the poster. If a couple dozen user stories will result in a new screen, then put a mockup of that very screen on the poster for all to see. Having those visuals in plain site on the wall can really help in the way of collaboration and brainstorming within the team. Further, it helps communicate to passers by what the team is currently working on.
+
+
+
+
+
+
+
+
+
+Provide local automation, “go” script
+Pair programming “core hours”
+Architecture up front, with adequate docs and samples
+Press Release, features matrix on the wall, even use sexy mockups/wireframes…. and a scrum board is NOT a press release or good target
+Reduce branching, be careful of feature branches, favor lean and clean
+Atlassian tools
+
+Above the line - below the line, do whatever’s fastest separate from reporting
+Feature toggles over branches
+Release features is marketing and feature toggles
+Bring in fresh blood, consultants… the different view is priceless
+Dependencies kill! Ruthlessly remove them.
 
