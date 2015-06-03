@@ -114,20 +114,42 @@ So here's the the best part: make your one-pager big and colorful, like on a pos
 
 I'd even recommend adding a screen mockup or two, or other visualation, to the poster. If a couple dozen user stories will result in a new screen, then put a mockup of that very screen on the poster for all to see. Having those visuals in plain site on the wall can really help in the way of collaboration and brainstorming within the team. Further, it helps communicate to passers by what the team is currently working on.
 
+If you're struggling to come up with those top 10-or-so things to put on a poster, try creating a [User Story Map](http://www.agileproductdesign.com/presentations/user_story_mapping/). To quote Jeff Patton, the creator of User Story Mapping: "A prioritized user story backlog helps to understand what to do next, but is a difficult tool for understanding what your whole system is intended to do." As you can see in the picture below, the Story Map helps you aggregrate individual stories into user-centric goals and activities. 
+
+<img src="{{site.url}}/img/uploads/2015/05/Story_Map.png" />
+*(image taken from http://leanagilechange.com/leanagilewiki/index.php?title=Story_Mapping)*
+
+If we use that image as example, you might have the following high-level items in your poster:
+
+- "Ability to enter new orders with our streamlined order-entry wizard"
+- "No more waiting for long pauses while processing orders!"
+- "New and improved shipping dashboard to quickly and easily see the current status of all shipments"
+
+Here's another example using the power of User Story Mapping:
+
+<img src="{{site.url}}/img/uploads/2015/05/UserStoryMap.png" />
+*(image taken from http://winnipegagilist.blogspot.com/2012/03/how-to-create-user-story-map.html)*
+
+Again, using that image as an example, we might include the following on our poster for Release 1:
+
+- "Basic email search and organization"
+- "Ability to create and read emails, including RTF-formatted messages"
+- "Meeting scheduling functionality, including appointment requests and accept/reject responses"
+
+These types of short descriptions hanging on the wall for all to see are a great way to ensure your development team doesn't get lost in the weeds. Try it out for a month or two.
+
+#### 7. 
 
 
 
 
 
 
-
-
-Provide local automation, “go” script
-Pair programming “core hours”
+8. Think Open Source -> Provide local automation, “go” script, Atlassian tools, good readme, Vagrant, easy to jump in and contribute!
+7. Pair programming “core hours”
+9. 
 Architecture up front, with adequate docs and samples
-Press Release, features matrix on the wall, even use sexy mockups/wireframes…. and a scrum board is NOT a press release or good target
 Reduce branching, be careful of feature branches, favor lean and clean
-Atlassian tools
 
 Above the line - below the line, do whatever’s fastest separate from reporting
 Feature toggles over branches
