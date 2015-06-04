@@ -173,6 +173,15 @@ I suggest that if you aren't using them now, just go with the Atlassian toolset.
 
 At the risk of sounding like a broken record... trust me. Model your enterprise projects after open source projects and your team will go much faster, more efficient, and will be much happier.
 
+#### 8. Set aside "core programming hours"
+
+As a software engineer, I can honestly say that one of the greatest gifts you can give a developer (or tester) is a consistence uninterupted block of time in which to work. The ability for your team members to get into a [flow](http://en.wikipedia.org/wiki/Flow_%28psychology%29) is crucial to its success in speed and efficiency. An environment conducive to flow (a.k.a. "the zone") is correspondingly an environment that fosters increased satisfaction and happiness, and reduced stress and frustration. 
+
+Awareness of flow goes back thousands of years, with many studies on the topic over the past couple hundred. Bottom line, your team, your project, your product **needs** flow - and it's everyone's job to make sure it happens. Fight for flow. Don't let anyone or anything steal it from your team. 
+
+This is where the concept of core programming hours comes into play. Try to ensure that each member of your development team has a good three or four hours everyday to get into flow - and stay there. Carve out time every day in which people know meetings won't happen, where phones can be turned off, and email and chat software can be shut down. Maybe start with only two hours at a time if that's all you can set aside. And then keep an eye on team velocity and overall well being. I gaurantee you will see increases in both.
+
+#### 9. 
 
 
 
@@ -180,10 +189,6 @@ At the risk of sounding like a broken record... trust me. Model your enterprise 
 
 
 
-
-8. Think Open Source -> Provide local automation, “go” script, Atlassian tools, good readme, Vagrant, easy to jump in and contribute!
-7. Pair programming “core hours”
-9. 
 Architecture up front, with adequate docs and samples
 Reduce branching, be careful of feature branches, favor lean and clean
 
