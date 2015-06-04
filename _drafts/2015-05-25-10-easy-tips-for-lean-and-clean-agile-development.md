@@ -179,9 +179,19 @@ As a software engineer, I can honestly say that one of the greatest gifts you ca
 
 Awareness of flow goes back thousands of years, with many studies on the topic over the past couple hundred. Bottom line, your team, your project, your product **needs** flow - and it's everyone's job to make sure it happens. Fight for flow. Don't let anyone or anything steal it from your team. 
 
-This is where the concept of core programming hours comes into play. Try to ensure that each member of your development team has a good three or four hours everyday to get into flow - and stay there. Carve out time every day in which people know meetings won't happen, where phones can be turned off, and email and chat software can be shut down. Maybe start with only two hours at a time if that's all you can set aside. And then keep an eye on team velocity and overall well being. I gaurantee you will see increases in both.
+This is where the concept of core programming hours comes into play. Try to ensure that each member of your development team has a good three or four hours everyday to get into flow - and stay there. Carve out time every day in which people know meetings won't happen, where phones can be turned off, and email and chat software can be shut down. Maybe start with only two hours at a time if that's all you can set aside. For example, everyday from 2 to 4pm is flow time. Then keep an eye on team velocity and overall well being. I gaurantee you will see increases in both.
 
-#### 9. 
+#### 9. Watch out for over-branching
+
+Most of the development teams I see today are fairly adept at utilizing source control system branching features to help isolate different streams of work. Whether a simple single repository and branch with local workspace isolation, or something more complex like GitFlow, development teams are trying their best to leverage the tools and branching techniques available.
+
+For a great explanation on a few different branching models, read [Atlassian's Git Workflows Tutorial](https://www.atlassian.com/git/tutorials/comparing-workflows). Based on team dynamics, release cycles, and desired isolation, one of those models should fit your needs.
+
+However, be on the lookout for overly complex and unneeded branching practices. It almost seems to be a natural step in learning about branching models, developers making them more complicated than is needed for their specific scenario. There is indeed a growing movement towards *not* branching. That is, some prominent folks (e.g. Jez Humble, author of [Continuous Delivery](http://www.amazon.com/dp/0321601912) and proponent of the DevOps practice), have on occasion [spoken out against the use of feature branches](http://continuousdelivery.com/2011/07/on-dvcs-continuous-integration-and-feature-branches/). Or, at least, cautioned against their unnecessary use. The main idea being that we **want** frequent change and integration, and feature branches tend to hide or defer change. So although it may seem counterintuitive, avoiding branches can actually reduce integration problems and increase overall velocity. Sometimes simplication trumps sofisticated tools and processes.
+
+If you pay attention, you will likely find that a group of software engineers will naturally gravitate towards an over-engineered branching model. There is certainly no ill intent involved, but rather we all too easily grasp at complexity and sofistication to solve problems. And sometimes just to make it less boring! What this means is that the team will need to very diliberately avoid unnecessary and overly complex branching. My recommendation is to avoid feature branches for as long as you can. Think of a developer's local clone of the code as all the feature isolation you really need. Encourage developers and testers to continually push code to the shared repo, rather than relying on feature branches as a crutch.
+
+
 
 
 
@@ -191,10 +201,5 @@ This is where the concept of core programming hours comes into play. Try to ensu
 
 Architecture up front, with adequate docs and samples
 Reduce branching, be careful of feature branches, favor lean and clean
-
-Above the line - below the line, do whatever’s fastest separate from reporting
-Feature toggles over branches
-Release features is marketing and feature toggles
 Bring in fresh blood, consultants… the different view is priceless
-Dependencies kill! Ruthlessly remove them.
 
