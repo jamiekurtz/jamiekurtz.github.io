@@ -136,9 +136,45 @@ Again, using that image as an example, we might include the following on our pos
 - "Ability to create and read emails, including RTF-formatted messages"
 - "Meeting scheduling functionality, including appointment requests and accept/reject responses"
 
-These types of short descriptions hanging on the wall for all to see are a great way to ensure your development team doesn't get lost in the weeds. Try it out for a month or two.
+These types of short descriptions hanging on the wall for all to see are a great way to ensure your development team doesn't get lost in the weeds. I dare you to try it out!
 
-#### 7. 
+#### 7. Think Open Source Projects
+
+One of the things I love most about open source projects... they typically have a very low barrier for developers and other people to get involved. An open source project must make it drop dead simple for someone to jump in, contribute, and move on. Those types won't survive if it's too hard to get your environment set up. 
+
+Imagine if your own projects were set up the same way? Imagine if the tooling, documentation, and configuration of the source code and tests and backlog were such that anyone could pull up to the code (and/or backlog, etc.), spend a few minutes ramping up, and quickly get to adding value? 
+
+Over the years I've more often than not seen enterprise/business teams that make it horribly hard to get involved. There's a bit of short-sited thinking around environment configuration, where everyone just relies on that one guy stopping by to offer a bit of critical tribal knowledge. And then it takes around a dozen of these undocumented and ad-hoc interactions in order to run the tests or run the app. And in my experience, days and even weeks go by while this is happening. If these were open source projects they wouldn't have survived the first week!
+
+Even recently, at a large global client of ours, it took a small team literally two weeks to get their development environments set up. And not because it was **that** complicated (because it wasn't). It was because no one had taken the time to streamline the process, automate what could be automated, and simply write down all those things that half a dozen people had to step in and help with (in person, when they were available, not at lunch or on vacation, etc.).
+
+There's also an emotional factor here, where developers these days are getting more accustomed to open source projects that are easy to jump into. So when yours sucks, when yours is a pain the neck, people will go elsewhere. The same as happens with overly difficult open source projects - the good developers and testers, the ones you want working on your project, they are the ones that won't put up with it.
+
+So, here are some practical and generally easy things you can and should ensure on your project:
+
+**First and foremost, and good README file**. A developer or tester should have to do literally nothing else beyond what is explained in the README in order to be up and running. If someone needs to ask "that guy" how to do something, you can do better. Remember, open source projects rely on all kinds of people, across many time zones, countries, and cultures. Try to think the same way.
+
+**Leverage the power of a "go" script"**. In addition to an awesome README file, provide a single point of entry for automating anything that can possibly be automated. This means things like: database creation, environment variables or registry entries, SSL certificates, mutli-project compilations, running tests, running code analysis, and anything else commonly performed by developers. Sometimes you can implement your "go script" with a build tool, like Ant or MSBuild or Grunt or Gulp. Other times you might want to just use a shell script or DOS batch file. I've done this in the past by writing scripts that delegate off to other build tools and such. Here are some examples:
+
+    ./go buildDb
+    ./go dropDb
+    ./go runTests
+    ./go createCerts
+    ./go clean
+    ./go build
+    ./go resetAll
+    ./go init
+
+Ideally, a new developer could clone the repository, quickly read through the README, run the `./go init` command, and be off to the races - all without requiring any ad-hoc tribal knowledge from anyone.
+
+**Use great and popular tools**. There's nothing worse for a developer or tester or project manager than to start a new client or employer or project and be staring at an old or obscure source control or ticketing system. People quit jobs over crap like that. Developers will not hang around if they have to keep using old or difficult source control systems. At least not the good ones. Same is true for documentation tools, work item or ticketing tools, and build systems. A developer's decision to work with you can honestly come down to your tooling selection.
+
+I suggest that if you aren't using them now, just go with the Atlassian toolset. Are there better ones out there? Sure, for some scenarios. But you'll spend more time and money trying to find "the perfect tool" than is worth it. Just about any developer or tester or PM worth hiring these days will have at least some familiarlity with the Atlassian tools. And if not those specific tools, then at least their general concepts (e.g. Git source control, Wiki-based sites, user stories and task boards). This means: Stash source control, Jira work item tracking, Confluence online sites and documentation, Bamboo build system, and HipChat for online chat and collaboration.
+
+At the risk of sounding like a broken record... trust me. Model your enterprise projects after open source projects and your team will go much faster, more efficient, and will be much happier.
+
+
+
 
 
 
