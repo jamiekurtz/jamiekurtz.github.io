@@ -20,11 +20,24 @@ Software development is hard. And while agile methods can certainly deliver fast
 
 This post will be a brief guided tour through ten easy-to-implement tips for reducing chaos, increasing efficiency, and helping your agile development teams run leaner and cleaner - and happier. These aren't in any particular order. And they are based on my own experience over the last couple decades. No doubt other people will have differing opinions, which is great, and I would love to hear them. This is simply what I've found to work well in a practical way across many types of software projects and many types of teams.
 
+The tips discussed below are:
+
+    1. Utilize No-interpretation-needed Severities In Your Bug Tracker
+    2. Great Hardware for Your Developers and Testers
+    3. Effective Team Ratio
+    4. Wednesday to Wednesday Iterations
+    5. Implement Continuous Delivery First
+    6. Press Release on the Wall
+    7. Think Open Source Projects
+    8. Set Aside "core programming hours"
+    9. Watch out for over-branching
+    10. Healthy Mix of Personalities and Perspectives
+
 <br />
 
-#### 1. Utilize no-interpretation-needed severities in your bug tracker
+#### 1. Utilize No-interpretation-needed Severities In Your Bug Tracker
 
-First, **use a Severity field that is separate from Priority**. It's a fundamental fact of building software that an issue's severity in the eyes of a __user__ is distinct from priority in the eyes of the __business__ - or software provider. Priority should take into account all kinds of software-building things, like budget, stakeholder preference, release timing, market opportunities, and available skillset and tooling. This also implies that Priority can change over time for a given issue. And it often does!
+First, **use a Severity field that is separate from Priority**. It's a fundamental fact of building software that an issue's severity in the eyes of a __user__ is distinct from priority in the eyes of the __business__ - or software provider. Priority should take into account all kinds of software-building things, like budget, stakeholder preference, release timing, market opportunities, and available skill set and tooling. This also implies that Priority can change over time for a given issue. And it often does!
 
 But a changing priority value should absolutely **not** change the severity of the issue as seen by the user at the time it was reported. So make sure you issue tracker has both fields - Severity and Priority.
 
@@ -48,15 +61,15 @@ These levels come courtesy years ago from one of the best team leads I've ever w
 
 I'm continually astounded by the massive cost in time/billable-hours companies incur for something as trivial as a second or third monitor. You can just about make up the cost of a monitor in a single day! 
 
-I remember when 2nd monitors were just becoming popular, and I bought everyone on my team a second monitor to plug into their laptop. It cost me all of about $2000 total, and gained me something in the neighborhood of 30% increase in productiviy. Not to mention developer happiness. And, in this particular case, envy from developers on other teams in the company:)
+I remember when 2nd monitors were just becoming popular, and I bought everyone on my team a second monitor to plug into their laptop. It cost me all of about $2000 total, and gained me something in the neighborhood of 30% increase in productivity. Not to mention developer happiness. And, in this particular case, envy from developers on other teams in the company:)
 
-Seriously, there's more than you think riding on a developer's ability to go fast and free. Freedom almost always wins!! And things like: good monitors, good keyboards, lots of RAM, plenty of CPU horsepower, and extra hardware lying around go **A LONG WAY** in offering freedom, increasing productivty, and overall keeping your top talent around a little longer.
+Seriously, there's more than you think riding on a developer's ability to go fast and free. Freedom almost always wins!! And things like: good monitors, good keyboards, lots of RAM, plenty of CPU horsepower, and extra hardware lying around go **A LONG WAY** in offering freedom, increasing productivity, and overall keeping your top talent around a little longer.
 
 <img src="{{site.url}}/img/uploads/2015/05/daskeyboard-ultimate.webp" width="175" height="175" class="alignright" />
 
 The math is drop dead simple to do (e.g. $200 monitor to "buy back" an hour or two a day is a no brainer). Developer and tester happiness is a little harder to measure, but you can just ask, and watch, and listen. You claim to an agile shop - so try something new in the way of hardware, get some feedback, and adjust. These days, hardware is cheap, and people are expensive. And turnover is VERY expensive. So remember that the next time you're cringing at a mere $200 to double someone's RAM. 
 
-If you don't believe me, try buying a nice keyboard for everyone on your team. I've been very happy with the [Model S Ultimate from daskeyboard](http://www.daskeyboard.com/model-s-ultimate/). It really does make you learn to type faster. Or the relatively new one from Jeff Atwood - approproiately named the [Code Keyboard](https://codekeyboards.com/). Sure, they are in the range of $150. But trust me, buy a few, see what happens. 
+If you don't believe me, try buying a nice keyboard for everyone on your team. I've been very happy with the [Model S Ultimate from daskeyboard](http://www.daskeyboard.com/model-s-ultimate/). It really does make you learn to type faster. Or the relatively new one from Jeff Atwood - appropriately named the [Code Keyboard](https://codekeyboards.com/). Sure, they are in the range of $150. But trust me, buy a few, see what happens. 
 
 #### 3. Effective Team Ratio
 
@@ -92,7 +105,7 @@ Further, those personal days and short vacations usually include Fridays and Mon
 
 Then there's the typical human emotional baggage of Mondays and Fridays. Mondays kind of suck, and by Friday afternoon most people (at least, the hardest working and most efficient ones) are pretty well ready to be done. So forcing some big demo/wrap-up meeting every Friday from 2 to 5 is pretty pointless. Especially when you've got out-of-town consultants on board, as they are typically headed home by Friday afternoon. You'll do your team a favor by giving back their Monday mornings and Friday afternoons.
 
-If you currently run your sprints/iterations Monday to Friday, try switching to starting and ending on a Wednesday. I'm confident you'll find that the team is more likley to be fully engaged, and with weekends in there they might even get more done from time to time.
+If you currently run your sprints/iterations Monday to Friday, try switching to starting and ending on a Wednesday. I'm confident you'll find that the team is more likely to be fully engaged, and with weekends in there they might even get more done from time to time.
 
 #### 5. Implement Continuous Delivery First
 
@@ -106,15 +119,15 @@ To be fair, you can't just "turn on" [continuous delivery](http://continuousdeli
 
 #### 6. Press Release on the Wall
 
-I learned years ago that one of the best things you can do to keep a team moving forwward, and in the right direction, is to "start with the press release". Before you worry about the backlog, or the next sprint, someone (usually the product owner or product/program manager type) needs to write a one-pager on the user-oriented things that will be in the next release. There are tips and templates online for writing press releases. But the main idea is to create a target of-sorts, which the development team can use to maintain focus. It's all too easy to miss the forest from the trees when you're staring at scrum boards and user stories all day everyday.
+I learned years ago that one of the best things you can do to keep a team moving forward, and in the right direction, is to "start with the press release". Before you worry about the backlog, or the next sprint, someone (usually the product owner or product/program manager type) needs to write a one-pager on the user-oriented things that will be in the next release. There are tips and templates online for writing press releases. But the main idea is to create a target of-sorts, which the development team can use to maintain focus. It's all too easy to miss the forest from the trees when you're staring at scrum boards and user stories all day everyday.
 
 What you want is a succinct list of brief business scenarios and user experience enhancements that all those user stories roll up into. Where a release might include a few dozen user stories (depending on the size of the release of, course), our one-pager should list at most maybe ten high-level scenarios. Many people nowadays call them epics. Regardless, they are intentionally higher level than the user stories. 
 
-So here's the the best part: make your one-pager big and colorful, like on a poster board, and put it on the wall for the entire team to see. I've even used graphic artists to create the poster so that it looks nice, looks professional, and then had them printed at Kinko's on nice big glossy posters. Then as stories get completed, you can indicate epic-level progress on the poster. This works very well to make sure everyone's working towards the bigger things, and not losing sight of the desired enhancements to the user's experience. 
+So here's the best part: make your one-pager big and colorful, like on a poster board, and put it on the wall for the entire team to see. I've even used graphic artists to create the poster so that it looks nice, looks professional, and then had them printed at Kinko's on nice big glossy posters. Then as stories get completed, you can indicate epic-level progress on the poster. This works very well to make sure everyone's working towards the bigger things, and not losing sight of the desired enhancements to the user's experience. 
 
-I'd even recommend adding a screen mockup or two, or other visualation, to the poster. If a couple dozen user stories will result in a new screen, then put a mockup of that very screen on the poster for all to see. Having those visuals in plain site on the wall can really help in the way of collaboration and brainstorming within the team. Further, it helps communicate to passers by what the team is currently working on.
+I'd even recommend adding a screen mockup or two, or other visualization, to the poster. If a couple dozen user stories will result in a new screen, then put a mockup of that very screen on the poster for all to see. Having those visuals in plain site on the wall can really help in the way of collaboration and brainstorming within the team. Further, it helps communicate to passers by what the team is currently working on.
 
-If you're struggling to come up with those top 10-or-so things to put on a poster, try creating a [User Story Map](http://www.agileproductdesign.com/presentations/user_story_mapping/). To quote Jeff Patton, the creator of User Story Mapping: "A prioritized user story backlog helps to understand what to do next, but is a difficult tool for understanding what your whole system is intended to do." As you can see in the picture below, the Story Map helps you aggregrate individual stories into user-centric goals and activities. 
+If you're struggling to come up with those top 10-or-so things to put on a poster, try creating a [User Story Map](http://www.agileproductdesign.com/presentations/user_story_mapping/). To quote Jeff Patton, the creator of User Story Mapping: "A prioritized user story backlog helps to understand what to do next, but is a difficult tool for understanding what your whole system is intended to do." As you can see in the picture below, the Story Map helps you aggregate individual stories into user-centric goals and activities. 
 
 <img src="{{site.url}}/img/uploads/2015/05/Story_Map.png" />
 *(image taken from http://leanagilechange.com/leanagilewiki/index.php?title=Story_Mapping)*
@@ -169,17 +182,17 @@ Ideally, a new developer could clone the repository, quickly read through the RE
 
 **Use great and popular tools**. There's nothing worse for a developer or tester or project manager than to start a new client or employer or project and be staring at an old or obscure source control or ticketing system. People quit jobs over crap like that. Developers will not hang around if they have to keep using old or difficult source control systems. At least not the good ones. Same is true for documentation tools, work item or ticketing tools, and build systems. A developer's decision to work with you can honestly come down to your tooling selection.
 
-I suggest that if you aren't using them now, just go with the Atlassian toolset. Are there better ones out there? Sure, for some scenarios. But you'll spend more time and money trying to find "the perfect tool" than is worth it. Just about any developer or tester or PM worth hiring these days will have at least some familiarlity with the Atlassian tools. And if not those specific tools, then at least their general concepts (e.g. Git source control, Wiki-based sites, user stories and task boards). This means: Stash source control, Jira work item tracking, Confluence online sites and documentation, Bamboo build system, and HipChat for online chat and collaboration.
+I suggest that if you aren't using them now, just go with the Atlassian toolset. Are there better ones out there? Sure, for some scenarios. But you'll spend more time and money trying to find "the perfect tool" than is worth it. Just about any developer or tester or PM worth hiring these days will have at least some familiarity with the Atlassian tools. And if not those specific tools, then at least their general concepts (e.g. Git source control, Wiki-based sites, user stories and task boards). This means: Stash source control, Jira work item tracking, Confluence online sites and documentation, Bamboo build system, and HipChat for online chat and collaboration.
 
 At the risk of sounding like a broken record... trust me. Model your enterprise projects after open source projects and your team will go much faster, more efficient, and will be much happier.
 
-#### 8. Set aside "core programming hours"
+#### 8. Set Aside "core programming hours"
 
-As a software engineer, I can honestly say that one of the greatest gifts you can give a developer (or tester) is a consistence uninterupted block of time in which to work. The ability for your team members to get into a [flow](http://en.wikipedia.org/wiki/Flow_%28psychology%29) is crucial to its success in speed and efficiency. An environment conducive to flow (a.k.a. "the zone") is correspondingly an environment that fosters increased satisfaction and happiness, and reduced stress and frustration. 
+As a software engineer, I can honestly say that one of the greatest gifts you can give a developer (or tester) is a consistence uninterrupted block of time in which to work. The ability for your team members to get into a [flow](http://en.wikipedia.org/wiki/Flow_%28psychology%29) is crucial to its success in speed and efficiency. An environment conducive to flow (a.k.a. "the zone") is correspondingly an environment that fosters increased satisfaction and happiness, and reduced stress and frustration. 
 
 Awareness of flow goes back thousands of years, with many studies on the topic over the past couple hundred. Bottom line, your team, your project, your product **needs** flow - and it's everyone's job to make sure it happens. Fight for flow. Don't let anyone or anything steal it from your team. 
 
-This is where the concept of core programming hours comes into play. Try to ensure that each member of your development team has a good three or four hours everyday to get into flow - and stay there. Carve out time every day in which people know meetings won't happen, where phones can be turned off, and email and chat software can be shut down. Maybe start with only two hours at a time if that's all you can set aside. For example, everyday from 2 to 4pm is flow time. Then keep an eye on team velocity and overall well being. I gaurantee you will see increases in both.
+This is where the concept of core programming hours comes into play. Try to ensure that each member of your development team has a good three or four hours everyday to get into flow - and stay there. Carve out time every day in which people know meetings won't happen, where phones can be turned off, and email and chat software can be shut down. Maybe start with only two hours at a time if that's all you can set aside. For example, everyday from 2 to 4pm is flow time. Then keep an eye on team velocity and overall well being. I guaranteed you will see increases in both.
 
 #### 9. Watch out for over-branching
 
@@ -187,11 +200,29 @@ Most of the development teams I see today are fairly adept at utilizing source c
 
 For a great explanation on a few different branching models, read [Atlassian's Git Workflows Tutorial](https://www.atlassian.com/git/tutorials/comparing-workflows). Based on team dynamics, release cycles, and desired isolation, one of those models should fit your needs.
 
-However, be on the lookout for overly complex and unneeded branching practices. It almost seems to be a natural step in learning about branching models, developers making them more complicated than is needed for their specific scenario. There is indeed a growing movement towards *not* branching. That is, some prominent folks (e.g. Jez Humble, author of [Continuous Delivery](http://www.amazon.com/dp/0321601912) and proponent of the DevOps practice), have on occasion [spoken out against the use of feature branches](http://continuousdelivery.com/2011/07/on-dvcs-continuous-integration-and-feature-branches/). Or, at least, cautioned against their unnecessary use. The main idea being that we **want** frequent change and integration, and feature branches tend to hide or defer change. So although it may seem counterintuitive, avoiding branches can actually reduce integration problems and increase overall velocity. Sometimes simplication trumps sofisticated tools and processes.
+However, be on the lookout for overly complex and unneeded branching practices. It almost seems to be a natural step in learning about branching models, developers making them more complicated than is needed for their specific scenario. There is indeed a growing movement towards *not* branching. That is, some prominent folks (e.g. Jez Humble, author of [Continuous Delivery](http://www.amazon.com/dp/0321601912) and proponent of the DevOps practice), have on occasion [spoken out against the use of feature branches](http://continuousdelivery.com/2011/07/on-dvcs-continuous-integration-and-feature-branches/). Or, at least, cautioned against their unnecessary use. The main idea being that we **want** frequent change and integration, and feature branches tend to hide or defer change. So although it may seem counterintuitive, avoiding branches can actually reduce integration problems and increase overall velocity. Sometimes simplification trumps sophisticated tools and processes.
 
-If you pay attention, you will likely find that a group of software engineers will naturally gravitate towards an over-engineered branching model. There is certainly no ill intent involved, but rather we all too easily grasp at complexity and sofistication to solve problems. And sometimes just to make it less boring! What this means is that the team will need to very diliberately avoid unnecessary and overly complex branching. My recommendation is to avoid feature branches for as long as you can. Think of a developer's local clone of the code as all the feature isolation you really need. Encourage developers and testers to continually push code to the shared repo, rather than relying on feature branches as a crutch.
+If you pay attention, you will likely find that a group of software engineers will naturally gravitate towards an over-engineered branching model. There is certainly no ill intent involved, but rather we all too easily grasp at complexity and sophistication to solve problems. And sometimes just to make it less boring! What this means is that the team will need to very deliberately avoid unnecessary and overly complex branching. My recommendation is to avoid feature branches for as long as you can. Think of a developer's local clone of the code as all the feature isolation you really need. Encourage developers and testers to continually push code to the shared repo, rather than relying on feature branches as a crutch.
 
+In short, you can obtain isolation through several mechanisms, branching being one of those. Just don't fall into the common trap of unnecessary or overly complex branching, because it might actually be making it slower and more painful for the team. And... try to force yourself into **not** using feature branches - this will apply a healthy pressure to the team to work in smaller chunks and integrate more often.
 
+#### 10. Healthy Mix of Personalities and Perspectives
+
+About a year ago I read an article talking about two types of people every organization needs: rule breakers and rule followers. I strongly believe that even a small development team needs a healthy mix of those two personalities. A team of ten would greatly benefit from one or two rule breakers, as they are typically the ones thinking outside the box and pushing the envelope of innovation. They are also the ones who will first revolt against time wasting corporate stupidity. And you need people like that on your team if you are going to move fast and efficiently. 
+
+This is very similar to the thought that the upper ranks of an organization, or maybe a board, need a mix of visionaries and workers. Without visionaries the workers would work all day long but not get anywhere useful or valuable. And without workers the visionaries would never see their visions realized. 
+
+When it comes to agile, and the tight feedback loop it is based on, it is the rule breakers that will relentlessly seek out newer and faster ways of essentially getting features and bug fixes in front of your users. Their innate ability to sense even the slightest inefficiency, to feel overwhelmingly compelled at their core to find new and better techniques and tools, to have no fewer than a dozen passionate ideas in their head at any given moment; your team needs that agile-enabling brilliance.
+
+Of course, as a trusted former colleague once said to me, "every development team needs brilliance, but that brilliance comes with a large tax." And in my 10+ years working in various management/lead roles, I can say for certain that those rule breakers are a lot of work. They tend to be the drama queens. They tend to cost more. They will likely be the first to quit as soon as times get a little tough or aren't as fun. And their restlessness can easily turn into ill-placed demand on the rest of the team - i.e. they can drive their team nuts. 
+
+But trust me, it's worth it! And even more, it's a key component in the success of your agile development team. So make sure you have one or two rule breakers on your team. But also make sure your expectations are set appropriately - as that brilliance comes with a rather large tax.
+
+For the rest of the team... make sure they lean towards being faithful rule followers. Working through a long backlog, day after day, week after week, isn't always the most exciting work. And many times it's **not** innovative or highly creative. Those systematic rule following types are the powerhouse of a development team, relentlessly driving towards giving the users what they asked for. They are greatly satisfied with putting their headphones on and getting in the zone as they work down a backlog. And it's amazing to watch! Truly inspiring, in my opinion. While your rule breakers are busy stirring up a fuss as they push the innovation meter to the max, your rule followers are quietly making magic happen for the users.
+
+That article I mentioned at the top of this section make it quite clear that you need to reward both personality types for their strengths. You'd do well to make much out of your rule breakers' creativity and passion for innovation. And your rule followers will need to know that their tremendous ability to push value to your users is a key ingredient in the team's overall success. At times you'll need to put some boundaries around the rule breakers, make sure they are not going too far off the rails. And at times you'll need to give your rule followers a chance to go off script and play around a bit. 
+
+The last thing I wanted to mention in this section is that I've found it quite valuable to rotate into the team fresh perspectives on a regular basis. The rule breakers tend to pave the way for you quite naturally, as they won't sit still for long. But if that's not happening, then try to bring on outside consultants, or people from other teams. On a team of ten or so, I like to keep at least slot available for high turnover. That might sound bad, but I've found the frequent injection of external perspectives to be highly beneficial to a team. Again, this tends to happen naturally if you're making sure you have one or two rule breakers on your team. 
 
 
 
@@ -200,6 +231,5 @@ If you pay attention, you will likely find that a group of software engineers wi
 
 
 Architecture up front, with adequate docs and samples
-Reduce branching, be careful of feature branches, favor lean and clean
 Bring in fresh blood, consultants… the different view is priceless
 
