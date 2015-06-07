@@ -3,7 +3,7 @@ title: 10 Easy Tips For Lean and Clean Agile Development
 description:  A guided tour through ten easy-to-implement tips for reducing chaos, increasing efficiency, and helping your agile development teams run leaner and cleaner - and happier. 
 author: Jamie Kurtz
 layout: blog-post
-permalink: /2015/05/25/10-easy-tips-for-lean-and-clean-agile-development/
+permalink: /2015/06/07/10-easy-tips-for-lean-and-clean-agile-development/
 thumbnail: /img/uploads/2015/05/cheetah-running-thumb.jpg
 comments: true
 categories:

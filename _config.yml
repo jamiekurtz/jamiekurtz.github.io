@@ -3,6 +3,7 @@ baseurl:
 paginate: 10
 paginate_path: "/blog/page:num/"
 
+auther: Jamie Kurtz
 title: Jamie Kurtz | Solutions Architect
 email: jamie@jamiekurtz.com
 description: "Passionate about creating success, with a strong sense of iterative scope and value for users. 19+ years in software:
