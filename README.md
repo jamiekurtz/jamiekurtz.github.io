@@ -33,6 +33,8 @@ That last command essentially does this:
 
     jekyll serve  --host 0.0.0.0 --watch
 
+Once launched, you should be able to browse to [http://localhost:4000/](http://localhost:4000/).
+
 To stop the VM, enter the following:
 
     vagrant halt

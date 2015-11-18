@@ -13,7 +13,6 @@ Vagrant.configure(VAGRANTFILE_API_VERSION) do |config|
   config.vm.box = "ubuntu/trusty64"
 
   config.vm.network "forwarded_port", guest: 4000, host: 4000
-  config.vm.network "public_network", bridge: 'wlp3s0'
 
   config.vm.synced_folder ".", "/vagrant", type: "rsync", rsync__exclude: [".git/", "_site/"]
 
@@ -21,6 +20,6 @@ Vagrant.configure(VAGRANTFILE_API_VERSION) do |config|
   # Default value: false
    config.ssh.forward_agent = true
 
-  config.vm.provision "shell", inline: "sudo apt-get -y update && sudo apt-get -y install build-essential ruby1.9.3 && sudo gem install therubyracer jekyll"
+  config.vm.provision "shell", inline: "sudo apt-get -y update && sudo apt-get -y install build-essential ruby1.9.3 && sudo gem install therubyracer && gem install jekyll -v 2.5.3"
   
 end
